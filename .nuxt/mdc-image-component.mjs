@@ -1,0 +1,1 @@
+export { default } from "/Users/drenilisica/Development/interior-designer-portfolio/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue"
