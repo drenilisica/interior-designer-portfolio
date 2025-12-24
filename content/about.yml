@@ -1,27 +1,33 @@
-title: About Me
-description: Learn more about my journey as a Boston-based UX/UI Designer & Front-End Developer, my design philosophy, and my passion for crafting intuitive digital experiences.
+title: Rreth Meje
+description: Mësoni më shumë rreth rrugëtimit tim si Dizajnere e Brendshme me bazë në Prizren, filozofisë sime të dizajnit, dhe pasionit tim për krijimin e hapësirave që frymëzojnë dhe inspirojnë.
 content: |
-  Hi, I'm **Emma Thompson**, a UX/UI Designer and Front-End Developer based right here in Boston. For the past six years, I've been immersed in the world of digital product creation, focusing on building experiences that are not just functional, but genuinely intuitive and engaging for users.
+  Përshëndetje, unë jam **Jehona Xhoxhaj**, e lindur më 22.06.2003 në Prizren. Jam shkolluar me vullnetin dhe dëshirën që një ditë të kem mundësinë që talentin dhe artin tim ta shfaq në shoqëri dhe kudo në botë.
 
-  My path started at **Boston University**, where I earned a degree in Interactive Design. It was there I discovered my dual passion for the visual language of design and the logical puzzle of code. Since then, I've honed my skills in both areas, believing that the best digital products are born from a deep understanding of both aesthetics and implementation.
+  Dua të dizajnoj hapësira ku krijohen kujtime. Dua të krijoj shtëpi ku rriten familjet, shkolla ku lindin miqësi dhe spitale ku njerëzit gjejnë shpresë. Dizajnimi është mënyra ime për të bashkuar njerëzit, për t'u dhënë atyre hapësira që i bëjnë të ndihen të sigurt, të dashur dhe të frymëzuar. Bëhet fjalë për krijimin e më shumë sesa thjesht strukturave, ka të bëjë me ndërtimin e lidhjeve, ëndrrave dhe të ardhmes.
 
-  ### My Design Philosophy
+  ### Qasja Ime Profesionale
 
-  My design philosophy is rooted in **empathy** and **problem-solving**. I believe great design starts with understanding the 'why' – the user's needs, motivations, and pain points. I use research, iterative prototyping (often with tools like Figma), and user testing to ensure the solutions I build are truly effective.
+  Si dizajnere interieri, angazhimi im qëndron në krijimin e hapësirave funksionale, estetike dhe të përshtatura me nevojat specifike të përdoruesit. Qasja ime ndaj projektimit ndërthur kreativitetin me funksionalitetin, duke u fokusuar në optimizimin e çdo elementi të hapësirës – nga ndriçimi dhe ngjyrat, te përzgjedhja e materialeve dhe vendosja e mobiljeve.
 
-  I strive to create interfaces that feel effortless, where functionality and beauty work hand-in-hand. Whether I'm crafting pixel-perfect UIs or writing clean Vue.js/Nuxt.js code, my focus is always on creating value for the end-user.
+  ### Procesi Im i Punës
 
-  ### What Drives Me
+  Në procesin e projektimit të dhomave, i kushtoj rëndësi harmonisë midis formës dhe funksionit. Çdo dhomë duhet të tregojë një histori – qoftë një ambient familjar, profesional apo relaksues – duke reflektuar identitetin dhe stilin e klientit. Puna ime përfshin planifikimin e hapësirës, zgjedhjen e skemave kromatike, dhe propozimin e zgjidhjeve kreative për shfrytëzimin maksimal të çdo cepi.
 
-  What keeps me excited about this work is the constant learning and the challenge of translating complex ideas into simple, elegant solutions. There's nothing more rewarding than seeing a design come to life and knowing it's making someone's digital interaction easier or more enjoyable.
+  ### Dizajni i Mobiljeve
 
-  ### Beyond the Screen
+  Në fushën e projektimit të mobiljeve, fokusi im është në dizajnin praktik, estetik dhe të qëndrueshëm. Kam aftësi në zhvillimin e skicave konceptuale dhe realizimin e tyre përmes softuerëve të dizajnit 3D, duke bashkëpunuar ngushtë me mjeshtër të prodhimit për të garantuar cilësi dhe funksionalitet në çdo produkt.
 
-  When I'm not designing or coding, you might find me exploring Boston's latest coffee shops, hiking nearby trails, or occasionally contributing to open-source projects.
+  ### Planimetri dhe Vizualizime 2D
 
-  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
+  Një pjesë thelbësore e procesit tim të projektimit përfshin zhvillimin e planimetrive dhe pamjeve 2D, të cilat shërbejnë si bazë për paraqitjen e qartë dhe të saktë të ideve hapësinore dhe mobilimit. Përmes planimetrive 2D, arrij të prezantoj organizimin funksional të ambienteve, raportet midis objekteve dhe përmasat reale të hapësirës, duke e bërë projektin lehtësisht të kuptueshëm për klientët dhe ekipin e prodhimit.
+
+  ### Përtej Projekteve
+
+  Kur nuk po dizajnoj apo vizitoj kantiere, mund të më gjeni duke eksploruar kafenetë e Prizrenit, duke vizituar ekspozita arti, apo duke kontribuar në projekte lokale të revitalizimit urban.
+
+  Faleminderit që më vizituat. Ndjehuni të lirë të shfletoni [projektet](/projects) e mia ose të [kontaktoni](/#contact) nëse dëshironi të bashkëpunojmë!
 images:
   - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My coffee workspace
+    alt: Hapësira ime e punës
   - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My trip to Tokyo
+    alt: Projekt nga portofolio ime

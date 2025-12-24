@@ -1,48 +1,48 @@
-title: Talks & Workshops
-description: Explore talks and workshops I've given on UX design, front-end development, and building better digital products.
+title: Foljet & Punëtoritë
+description: Eksploroni foljet dhe punëtoritë që kam dhënë rreth dizajnit të brendshëm, arkitekturës dhe krijimit të hapësirave më të mira.
 links:
-  - label: Invite me to speak
+  - label: Më ftoni të flas
     size: md
 events:
-  - category: Conference
-    title: "Bridging the Gap: Design Systems for Designer-Developer Collaboration"
+  - category: Konferencë
+    title: "Krijimi i Hapësirave Funksionale: Dizajni i Sistemeve për Hapësira Rezidenciale"
     date: "2024-10-26"
-    location: "VueConf US, Miami, FL"
+    location: "Konferenca e Arkitekturës, Prishtinë, Kosovë"
     url: "#"
-  - category: Conference
-    title: "Intuitive Interfaces: Applying UX Principles in Nuxt.js Applications"
+  - category: Konferencë
+    title: "Hapësira Intuitive: Zbatimi i Parimeve të Dizajnit në Projekte Moderne"
     date: "2024-06-15"
-    location: "Nuxt Nation, Online"
+    location: "Forum i Dizajnit të Brendshëm, Online"
     url: "#"
-  - category: Conference
-    title: "Accessibility First: Building Inclusive Web Apps"
+  - category: Konferencë
+    title: "Qasje Universale: Ndërtimi i Hapësirave Gjithëpërfshirëse"
     date: "2023-11-08"
-    location: "Boston Web Performance Meetup, Boston, MA"
-  - category: Live talk
-    title: "Mastering Component Design in Figma & Vue"
+    location: "Takimi i Dizajnerëve të Prishtinës, Prishtinë, Kosovë"
+  - category: Fjalim Live
+    title: "Mjeshtërimi i Dizajnit të Komponentëve në SketchUp & AutoCAD"
     date: "2024-08-20"
-    location: "Design & Dev Boston Meetup, Boston, MA"
+    location: "Takimi i Dizajnit & Arkitekturës Prishtinë, Prishtinë, Kosovë"
     url: "#"
-  - category: Live talk
-    title: "From Wireframe to Web: A Practical Front-End Workflow"
+  - category: Fjalim Live
+    title: "Nga Skica në Realizim: Një Proces Praktik i Punës"
     date: "2024-03-05"
-    location: "Internal Workshop @ PreviousCompany Inc."
-  - category: Live talk
-    title: "The Power of User Research in Product Development"
+    location: "Punëtori e Brendshme @ Studio Arkitektura"
+  - category: Fjalim Live
+    title: "Fuqia e Hulumtimit të Klientit në Zhvillimin e Projektit"
     date: "2023-09-12"
-    location: "Boston University Guest Lecture, Boston, MA"
+    location: "Ligjëratë e Ftuar në Universitetin e Prishtinës, Prishtinë, Kosovë"
   - category: Podcast
-    title: "Designing for Developers: A UX Perspective"
+    title: "Dizajnimi për Jetesë: Një Perspektivë e Dizajnit të Brendshëm"
     date: "2024-07-18"
-    location: "Syntax.fm (Guest)"
+    location: "Podcast Arkitektura & Dizajn (Mysafir)"
     url: "#"
   - category: Podcast
-    title: "The Future of Front-End Frameworks & Design Tooling"
+    title: "E Ardhmja e Dizajnit të Brendshëm & Mjetet e Vizualizimit"
     date: "2024-01-30"
-    location: "Design Details Podcast (Guest)"
+    location: "Podcast Detajet e Dizajnit (Mysafir)"
     url: "#"
   - category: Podcast
-    title: "Building a Career in UX/UI & Development"
+    title: "Ndërtimi i Karrierës në Dizajn të Brendshëm & Arkitekturë"
     date: "2023-05-22"
-    location: "TechForward Boston Podcast"
+    location: "Podcast TechForward Prishtinë"
     url: "#"

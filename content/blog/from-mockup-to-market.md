@@ -1,160 +1,158 @@
 ---
-title: "From Mockup to Market: My End-to-End Product Design Process"
-description: A detailed breakdown of my iterative design methodology, from
-  initial research to final handoff, with practical tips for designers at every
-  stage.
+title: "Nga Skica në Realizim: Procesi Im i Plotë i Dizajnit të Projektit"
+description: Një shpërbërje e detajuar e metodologjisë time iterative të dizajnit, nga hulumtimi fillestar deri te dorëzimi final, me këshilla praktike për dizajnerë në çdo fazë.
 date: 2025-04-23
 image: https://images.pexels.com/photos/1050312/pexels-photo-1050312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 minRead: 8
 author:
-  name: Emma Thompson
+  name: Jehona Xhoxhaj
   avatar:
     src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: Emma Thompson
+    alt: Jehona Xhoxhaj
 ---
 
-Creating successful digital products isn't about following a rigid formula—it's about developing a flexible framework that adapts to the unique challenges of each project. After refining my approach across dozens of products, I've developed a process that consistently delivers results while leaving room for creativity and iteration.
+Krijimi i projekteve të suksesshme të dizajnit të brendshëm nuk ka të bëjë me ndjekjen e një formule të ngurtë—ka të bëjë me zhvillimin e një kuadri fleksibël që adaptohet me sfidat unike të çdo projekti. Pas rafinimit të qasjes sime në dhjetëra projekte, kam zhvilluar një proces që jep rezultate në mënyrë të qëndrueshme duke lënë hapësirë për kreativitet dhe përsëritje.
 
-In this article, I'll walk through my end-to-end design process, from initial discovery to developer handoff, using my recent work on the EcoTrack application as a case study.
+Në këtë artikull, do të shpjegoj procesin tim të plotë të dizajnit, nga zbulimi fillestar deri te zbatimi, duke përdorur punën time të fundit në kafenë eko-miqësore si studim rasti.
 
-## Phase 1: Discovery & Research
+## Faza 1: Zbulimi & Hulumtimi
 
-Every great product starts with understanding the problem it's trying to solve. For EcoTrack, our challenge was creating an engaging way for users to track their environmental impact without feeling overwhelmed by guilt or complex data.
+Çdo projekt i shkëlqyer fillon me kuptimin e problemit që po përpiqet të zgjidhë. Për kafenë eko-miqësore, sfida jonë ishte krijimi i një mënyre tërheqëse për të treguar angazhimin mjedisor pa e bërë hapësirën të ndihej të rëndë ose predikuese.
 
-### User Interviews
+### Intervistat me Klientin
 
-I began by conducting interviews with 12 potential users across different demographics, focusing on their current habits and attitudes toward sustainability. These conversations revealed a crucial insight: most people wanted to make environmentally friendly choices but felt paralyzed by the complexity of calculating their impact.
+Fillova duke kryer intervista me pronarët dhe stafin e kafenesë, duke u fokusuar në vizionin e tyre dhe qëllimet e biznesit. Këto biseda zbuluan një njohuri thelbësore: ata donin të krijonin një hapësirë që ndjehej e ngrohtë dhe mikpritëse duke edukuar në të njëjtën kohë vizitorët rreth zgjedhjeve të qëndrueshme.
 
-> "I care about the environment, but I have no idea if using a paper bag is actually better than plastic, or if my reusable water bottle makes any difference." — Interview participant
+> "Duam që klientët tanë të ndihen mirë këtu, jo të ndihemi fajtorë rreth zgjedhjeve të tyre. Qëndrueshmëria duhet të jetë e natyrshme, jo e imponuar." — Pronari i kafenesë
 
-### Competitive Analysis
+### Analiza Konkurruese
 
-Next, I analyzed existing sustainability apps, creating a feature comparison matrix to identify gaps and opportunities. Most competitors focused on carbon footprint calculations but failed to provide actionable guidance or positive reinforcement.
+Më pas, analizova kafenetë ekzistuese të qëndrueshme, duke krijuar një matricë krahasimi të veçorive për të identifikuar boshllëqet dhe mundësitë. Shumica e konkurrentëve kishin një qasje shumë "të gjelbër" që ndjehej sterile—ne donim të krijonim diçka më njerëzore.
 
-### Defining Success
+### Përcaktimi i Suksesit
 
-Before opening Figma, I collaborated with stakeholders to define clear success metrics:
+Para se të filloja skicimin, bashkëpunova me palët e interesuara për të përcaktuar metrika të qarta të suksesit:
 
-- Increase daily active usage by 40%
-- Improve user-reported understanding of environmental impact
-- Drive measurable behavior changes in at least two sustainability categories
+- Rritje 40% në kohën mesatare të qëndrimit të klientëve
+- Përmirësim i vetëdijes së klientit për praktikat e qëndrueshme
+- Krijimi i një hapësire që nxit fotografimin dhe ndarjen në media sociale
 
-## Phase 2: Ideation & Conceptualization
+## Faza 2: Ideimi & Konceptimi
 
-With a solid understanding of the problem space, I moved into the creative phase of the process.
+Me një kuptim të fortë të hapësirës së problemit, kalova në fazën kreative të procesit.
 
-### Sketching
+### Skicimi
 
-I always start with pen and paper, rapidly exploring different approaches without the constraints of digital tools. For EcoTrack, I filled three sketchbooks with concepts ranging from gamified experiences to data-heavy dashboards.
+Gjithmonë filloj me laps dhe letër, duke eksploruar shpejt qasje të ndryshme pa kufizimet e mjeteve dixhitale. Për kafenë, mbushа tre fletore me koncepte që variojnë nga atmosfera minimale deri te dashbordet e mbushura me bimë.
 
-### Information Architecture
+### Arkitektura e Informacionit Hapësinor
 
-Based on research insights, I developed a user-centered information architecture that prioritized simplicity and actionable information:
+Bazuar në njohuri hulumtimi, zhvillova një arkitekturë hapësinore të fokusuar tek klienti që prioritizonte thjeshtësinë dhe veçoritë e qëndrueshme:
 
-1. **Dashboard** — Personalized overview with immediate impact insights
-2. **Daily Tracker** — Simple logging of activities with immediate feedback
-3. **Impact Journey** — Visualization of progress over time
-4. **Action Center** — Customized recommendations based on user behavior
+1. **Zona e Hyrjes** — Paraqitje miqësore me informacion mbi qëndrueshmërinë
+2. **Zona e Uljes Kryesore** — Ulëse të rehatshme nga materiale të ricikluara
+3. **Bari** — Tregues të qartë të burimit të produkteve
+4. **Kopshti i Brendshëm** — Element gjallë që tregon rritjen e qëndrueshme
 
-### Design Principles
+### Parimet e Dizajnit
 
-I established four core design principles to guide all decisions:
+Themelova katër parime kryesore të dizajnit për të udhëhequr të gjitha vendimet:
 
-- **Simplify complexity** — Translate environmental impact into understandable units
-- **Celebrate progress** — Focus on positive reinforcement rather than guilt
-- **Enable informed choices** — Provide context for decision-making
-- **Design for habit formation** — Create satisfying interaction loops
+- **Thjeshtëso kompleksitetin** — Përkthe qëndrueshmërinë në elemente vizuale të kuptueshme
+- **Festo progresin** — Fokusohu në pozitivitetin sesa në fajin
+- **Mundëso zgjedhje të informuara** — Jep kontekst për vendimet
+- **Dizajno për lidhje emocionale** — Krijo momente të kënaqshme që nxisin kthimin
 
-## Phase 3: Prototyping & Testing
+## Faza 3: Prototipimi & Testimi
 
-With the conceptual framework in place, I moved into the iterative cycle of prototyping and testing.
+Me kornizën konceptuale në vend, kalova në ciklin iterativ të prototipimit dhe testimit.
 
-### Low-Fidelity Wireframes
+### Plane Hapësinore me Besnikëri të Ulët
 
-I created wireframes focusing on user flows and information hierarchy, deliberately keeping the visual design minimal to focus feedback on functionality and structure.
+Krijova plane hapësinore duke u fokusuar në rrjedhën e klientëve dhe hierarkinë hapësinore, duke mbajtur dizajnin vizual minimal për të fokusuar reagimet në funksionalitet dhe strukturë.
 
-### User Testing (Round 1)
+### Testimi me Përdoruesit (Raundi 1)
 
-Testing wireframes with 8 participants revealed several key insights:
+Testimi i planeve me 8 pjesëmarrës zbuloi disa njohuri kyçe:
 
-- Users wanted more immediate feedback when logging activities
-- The impact visualization wasn't intuitive for most users
-- People were confused by technical environmental terminology
+- Përdoruesit donin më shumë ndriçim natyror
+- Zona e uljes nuk ishte mjaft e ndarë për biseda private
+- Njerëzit ishin të konfuzuar nga terminologjia teknike mjedisore
 
-### Mid-Fidelity Prototypes
+### Prototipet me Besnikëri të Mesme
 
-Based on testing feedback, I refined the concept and developed interactive prototypes with more visual detail, focusing on:
+Bazuar në reagimet e testimit, rafinova konceptin dhe zhvillova modele 3D me më shumë detaje vizuale, duke u fokusuar në:
 
-- Simplified data visualization using familiar metaphors
-- Immediate positive reinforcement for logged activities
-- Progressive disclosure of more complex environmental information
+- Vizualizim të thjeshtuar duke përdorur materiale natyrale
+- Krijim i zonave të ndara pa e humbur ndjenjën e hapjes
+- Zbulim progresiv të informacionit më kompleks mjedisor
 
-### User Testing (Round 2)
+### Testimi me Përdoruesit (Raundi 2)
 
-A second round of testing showed significant improvements in usability, but highlighted new challenges:
+Një raund i dytë i testimit tregoi përmirësime të konsiderueshme në përdorshmëri, por theksoi sfida të reja:
 
-- Users wanted to compare their impact with friends or community averages
-- Weekly summaries were more motivating than daily statistics
-- The onboarding process felt too lengthy
+- Përdoruesit donin më shumë bimë dhe elemente natyrale
+- Ndriçimi ishte shumë i fortë në disa zona
+- Procesi i porositjes nuk ishte mjaft i qartë
 
-## Phase 4: Visual Design & Refinement
+## Faza 4: Dizajni Vizual & Rafinimi
 
-With the core experience validated, I moved into high-fidelity visual design.
+Me përvojën kryesore të validuar, kalova në dizajnin vizual me besnikëri të lartë.
 
-### Visual Language
+### Gjuha Vizuale
 
-I developed a visual language that balanced approachability with credibility:
+Zhvillova një gjuhë vizuale që balanconte qasjen me kredibilitetin:
 
-- A nature-inspired color palette with clear functional color coding
-- Custom iconography that simplified complex concepts
-- Typography that prioritized readability across devices
-- Micro-interactions that provided satisfaction and reinforcement
+- Një paletë ngjyrash e frymëzuar nga natyra me kodim funksional të qartë
+- Ikonografi e personalizuar që thjeshtëzonte konceptet komplekse
+- Zgjedhje të mobilieve që prioritizonin qëndrueshmërinë dhe komoditetin
+- Detaje të kujdesshme që siguronin kënaqësi dhe përforcim
 
-### Design System
+### Sistemi i Dizajnit
 
-To ensure consistency and facilitate development, I created a comprehensive design system including:
+Për të siguruar konsistencë dhe për të lehtësuar zbatimin, krijova një sistem gjithëpërfshirës dizajni duke përfshirë:
 
-- Component library with documented states and behaviors
-- Responsive layout guidelines
-- Animation specifications
-- Accessibility standards
+- Bibliotekë materialesh me specifika të dokumentuara
+- Udhëzime për ndarjen hapësinore
+- Specifika të ndriçimit
+- Standarde të qasjes universale
 
-### Final Prototype
+### Prototipet Finale
 
-The final prototype brought together all elements into a cohesive experience, which we tested with a broader user group before moving to development.
+Prototipi përfundimtar bashkoi të gjitha elementet në një përvojë koherente, të cilën e testuam me një grup më të gjerë përdoruesish para se të kalonim në zbatim.
 
-## Phase 5: Implementation & Iteration
+## Faza 5: Zbatimi & Përsëritja
 
-The design process doesn't end when development begins—it evolves.
+Procesi i dizajnit nuk përfundon kur fillon ndërtimi—ai evolon.
 
-### Developer Collaboration
+### Bashkëpunimi me Kontraktorë
 
-I worked closely with developers throughout implementation, participating in code reviews and adjusting designs to address technical constraints while preserving the core experience.
+Punova ngushtë me kontraktorët gjatë zbatimit, duke pjesëmarrë në inspektime të kantierit dhe duke përshtatur dizajnet për të adresuar kufizimet teknike duke ruajtur përvojën kryesore.
 
-### Analytics Implementation
+### Integrimi i Feedback-ut
 
-We integrated analytics to track our success metrics, setting up dashboards to monitor key interactions and user journeys.
+Integruam një sistem për të grumbulluar reagimet e klientëve, duke vendosur një proces për të monitoruar ndërveprimet kryesore dhe udhëtimet e përdoruesve.
 
-### Post-Launch Iteration
+### Përsëritja Pas-Hapjes
 
-After launch, we established a regular cycle of analysis and iteration:
+Pas hapjes, krijuam një cikël të rregullt analize dhe përsëritje:
 
-- Weekly reviews of user feedback and behavior data
-- Bi-weekly design sprints to address emerging issues
-- Monthly feature planning based on usage patterns
+- Shqyrtim javor i reagimeve të klientëve dhe të dhënave të sjelljes
+- Sprint dizajni dy-javore për të adresuar çështjet emergjente
+- Planifikim mujor i veçorive bazuar në modelet e përdorimit
 
-## Results & Learnings
+## Rezultatet & Mësimet
 
-Six months after launch, EcoTrack has exceeded our initial success metrics:
+Gjashtë muaj pas hapjes, kafeja ka tejkaluar metrikat tona fillestare të suksesit:
 
-- 52% increase in daily active usage
-- 78% of users report better understanding of their environmental impact
-- Average user has adopted 3.4 new sustainable habits
+- Rritje 52% në kohën mesatare të qëndrimit të klientit
+- 78% e klientëve raportojnë kuptim më të mirë të praktikave të qëndrueshme
+- Klienti mesatar ka adoptuar 3.4 zakone të reja të qëndrueshme
 
-The most valuable lesson from this project was the importance of making abstract concepts tangible. By translating complex environmental data into personal, actionable insights, we created an experience that not only educated users but empowered them to make meaningful changes.
+Mësimi më i vlefshëm nga ky projekt ishte rëndësia e bërjes së koncepteve abstrakte të prekshme. Duke përkthyer të dhëna komplekse mjedisore në njohuri personale dhe të zbatueshme, krijuam një përvojë që jo vetëm edukoi përdoruesit por i fuqizoi ata të bëjnë ndryshime kuptimplote.
 
-## Conclusion
+## Përfundimi
 
-Effective product design is never a linear journey—it's a continuous cycle of learning and refinement. By staying focused on user needs while maintaining a flexible approach to problem-solving, we can create products that not only meet business objectives but genuinely improve people's lives.
+Dizajni efektiv i projektit nuk është kurrë një udhëtim linear—është një cikël i vazhdueshëm i të mësuarit dhe rafinimit. Duke qëndruar të fokusuar në nevojat e klientit duke ruajtur një qasje fleksibile ndaj zgjidhjes së problemeve, ne mund të krijojmë projekte që jo vetëm plotësojnë objektivat e biznesit por përmirësojnë në mënyrë të vërtetë jetën e njerëzve.
 
-I'd love to hear about your own design process and how you approach similar challenges. Feel free to reach out with questions or share your experiences in the comments below.
+Do të doja të dëgjoj për procesin tuaj të dizajnit dhe se si i qaseni sfidave të ngjashme. Mos ngurroni të më kontaktoni me pyetje ose të ndani përvojat tuaja në komentet më poshtë.

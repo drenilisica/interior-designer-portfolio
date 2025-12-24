@@ -1,120 +1,121 @@
 seo:
-  title: "Emma Thompson - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "Jehona Xhoxhaj - Dizajnere e Brendshme"
+  description: "Mirë se vini në portofoliun tim! Unë jam Jehona Xhoxhaj, dizajnere e brendshme me bazë në Prizren. Specializohem në krijimin e hapësirave që janë të bukura, funksionale dhe të përshtatura për nevojat e çdo klienti."
+title: "Përshëndetje, unë jam Jehona Xhoxhaj, Dizajnere e Brendshme"
+description: "Dizajnoj ambiente që kombinojnë estetikën me funksionalitetin praktik, duke sjellë ide në jetë përmes kreativitetit dhe planifikimit të detajuar."
 hero:
   links:
-    - label: "Use this template"
-      to: https://github.com/nuxt-ui-templates/portfolio
+    - label: "Shiko Projektet"
+      to: "/projects"
       color: "neutral"
   images:
     - src: /hero/random-1.avif
-      alt: Random Image 1
+      alt: Projekt 1
     - src: /hero/random-2.avif
-      alt: Random Image 2
+      alt: Projekt 2
     - src: /hero/random-3.avif
-      alt: Random Image 3
+      alt: Projekt 3
     - src: /hero/random-4.avif
-      alt: Random Image 4
+      alt: Projekt 4
     - src: /hero/random-5.avif
-      alt: Random Image 5
+      alt: Projekt 5
     - src: /hero/random-6.avif
-      alt: Random Image 6
+      alt: Projekt 6
     - src: /hero/random-7.avif
-      alt: Random Image 7
+      alt: Projekt 7
     - src: /hero/random-8.avif
-      alt: Random Image 8
+      alt: Projekt 8
     - src: /hero/random-9.avif
-      alt: Random Image 9
+      alt: Projekt 9
 about:
-  title: "About Me"
+  title: "Rreth Meje"
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+    E lindur më 22.06.2003 në Prizren, jam dizajnere e brendshme me pasion për krijimin e hapësirave që bashkojnë njerëzit dhe frymëzojnë jetën e tyre të përditshme.
+    
+    Dua të dizajnoj hapësira ku krijohen kujtime. Dua të krijoj shtëpi ku rriten familjet, shkolla ku lindin miqësi dhe spitale ku njerëzit gjejnë shpresë. Dizajnimi është mënyra ime për të bashkuar njerëzit, për t'u dhënë atyre hapësira që i bëjnë të ndihen të sigurt, të dashur dhe të frymëzuar.
 experience:
-  title: Work Experience
+  title: Përvoja e Punës
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "Dizajnere e Lirë në"
+      date: "2023 - Tani"
       company:
-        name: Nuxt
+        name: Projekte të Ndryshme
         logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
+        url: "#"
         color: "#00DC82"
-    - position: "Assets Designer at"
+    - position: "Dizajnere e Brendshme në"
       date: "2022 - 2023"
       company:
-        name: Raycast
+        name: Argjendaria ANNA
         logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
+        url: "#"
         color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
+    - position: "Projekti i Parë Profesional"
+      date: "2022"
       company:
-        name: Linear
+        name: Rimodelimi ANNA
         logo: "i-simple-icons-linear"
-        url: "https://linear.app"
+        url: "#"
         color: "#5E6AD2"
 testimonials:
-  - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
+  - quote: "Jehona ka një aftësi të rrallë për të balancuar estetikën e bukur me funksionalitetin praktik. Rimodelimi i shtëpisë sonë jo vetëm që dukej më mirë, por gjithashtu e bëri jetën tonë të përditshme shumë më të lehtë dhe më komode. Ajo vërtet e kupton se si njerëzit jetojnë në hapësira."
     author:
-      name: 'Sarah Chen'
-      description: 'Product Director at Bloom Finance'
+      name: 'Ariana Musliu'
+      description: 'Pronare e Apartamentit në Prishtinë'
       avatar:
         src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Working with Emma was the best decision we made for our startup. She didn't just deliver designs—she challenged our assumptions, conducted thorough user research, and created an experience that truly resonated with our audience. Her technical knowledge of front-end development meant the handoff to our engineering team was seamless."
+  - quote: "Puna me Jehonën ishte vendimi më i mirë që bëmë për restorantin tonë. Ajo nuk dha vetëm dizajne—ajo sfidoi supozimet tona, kreu hulumtime të thella për ambientët e ngjashëm, dhe krijoi një hapësirë që vërtet rezonoi me klientët tanë. Procesi ishte profesional dhe i detajuar në çdo hap."
     author:
-      name: 'Michael Rodriguez'
-      description: 'Co-founder of Wavelength Music'
+      name: 'Mentor Krasniqi'
+      description: 'Bashkëthemeluesi i Restorantit Shija'
       avatar:
         src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Emma stands out in her ability to translate complex sustainability data into intuitive interfaces. Her work on EcoTrack wasn't just visually stunning—it fundamentally changed how our users interact with environmental information. She approaches each problem with both creativity and analytical rigor, which is exactly what we needed."
+  - quote: "Jehona dallohet në aftësinë e saj për të përkthyer hapësira komplekse në ambiente intuitive dhe funksionale. Puna e saj në zyrat tona nuk ishte vetëm vizualisht mahnitëse—ajo ndryshoi në mënyrë themelore mënyrën se si ekipi ynë bashkëpunon dhe ndihet në vendin e punës. Kreativiteti dhe profesionalizmi i saj janë të jashtëzakonshëm."
     author:
-      name: 'Dr. Aisha Johnson'
-      description: 'Chief Innovation Officer at GreenTech Solutions'
+      name: 'Dr. Luana Hoxha'
+      description: 'Drejtoreshë e Inovacionit në Tech Solutions'
       avatar:
         src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
 blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
+  title: "Artikujt e Fundit"
+  description: "Disa nga mendimet e mia të fundit rreth dizajnit të brendshëm"
 faq:
-  title: Frequently Asked Questions
-  description: Answers to common questions about my process and services.
+  title: Pyetjet e Shpeshta
+  description: Përgjigje për pyetjet e zakonshme rreth procesit dhe shërbimeve të mia.
   categories:
-    - title: Services & Process
+    - title: Shërbimet & Procesi
       questions:
-        - label: What services do you offer?
+        - label: Çfarë shërbimesh ofroni?
           content: |
-            I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
-        - label: What is your design process like?
+            Specializohem në dizajn të brendshëm rezidencial dhe komercial. Kjo përfshin konsultime fillestare, koncepte të dizajnit, plane hapësinore dhe planimetri 2D, zgjedhje materialesh dhe mobilierësh, vizualizime 3D, mbikëqyrje të zbatimit, dhe koordinim me kontraktorë. Gjithashtu punoj në dizajnimin e mobiljeve të personalizuara. Qëllimi im është të krijoj hapësira që janë të bukura, funksionale dhe reflektojnë personalitetin dhe nevojat tuaja.
+        - label: Si është procesi juaj i dizajnit?
           content: |
-            My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
-        - label: Do you work with startups?
+            Procesi im fillon me një konsultë të detajuar për të kuptuar vizionin, nevojat dhe buxhetin tuaj. Më pas kaloj në fazën e hulumtimit dhe planifikimit, ku zhvilloj koncepte dhe plane hapësinore. Krijoni vizualizime 3D që ju ndihmojnë të shikoni se si do të duket hapësira juaj. Pas aprovimit, bashkëpunoj ngushtë me kontraktorë dhe mjeshtër për zbatimin e projektit, duke siguruar që çdo detaj të realizohet sipas planit.
+        - label: Punoni me biznese të vogla?
           content: |
-            Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
-    - title: Pricing & Timelines
+            Absolutisht! Gëzohem të punoj me biznese të vogla për të ndihmuar në formësimin e vizionit të tyre të hapësirës dhe për të krijuar ambiente miqësore për klientët që krijojnë përshtypje të parë të fortë. Kam përvojë në dizajnimin e hapësirave komerciale si argjendari, restorante, zyra dhe më shumë.
+    - title: Çmimet & Kohëzgjatja
       questions:
-        - label: How much does a project typically cost?
+        - label: Sa kushton zakonisht një projekt?
           content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
-        - label: What are your payment terms?
+            Kostot e projektit variojnë bazuar në përmasa, kompleksitet, zgjedhje materialesh dhe kohëzgjatje. Për projekte gjithëpërfshirëse të dizajnit të brendshëm, angazhimet e mia zakonisht fillojnë rreth €2,500, me projekte mesatare që variojnë midis €4,000 dhe €12,000. Për konsultime ose detyra specifike dizajni, tarifa ime ditore është €400. Çdo projekt është unik dhe jap ofertë të personalizuar pas konsultës fillestare.
+        - label: Cilat janë kushtet tuaja të pagesës?
           content: |
-            I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
-        - label: How long does a typical project take?
+            Në përgjithësi kërkoj një depozitë 40% për të planifikuar projektin dhe filluar punën, me 60% të mbetur që paguhet pas përfundimit të suksesshëm të projektit dhe dorëzimit. Për projekte më të mëdha, mund të ndajmë pagesat në faza. Pranoj pagesa përmes transferimit bankar.
+        - label: Sa zgjat zakonisht një projekt?
           content: |
-            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
-        - label: Do you offer retainers or ongoing support?
+            Kohëzgjatja varet shumë nga përmasa dhe kompleksiteti i projektit. Projektet më të vogla si dizajni i një dhome mund të zgjatin 2-3 javë, ndërsa projektet më të mëdha si rimodelimi i plotë i një apartamenti ose hapësire komerciale mund të variojnë nga 6 javë deri në 3 muaj. Gjithmonë jap një vlerësim të detajuar të kohëzgjatjes pas konsultës fillestare dhe vlerësimit të projektit.
+        - label: Ofroni mbështetje të vazhdueshme?
           content: |
-            Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
-    - title: About Me
+            Po, për klientë që kanë nevojë për mbështetje të vazhdueshme të dizajnit, zhvillim të projekteve të reja, ose konsultime periodike, ofroj opcione bashkëpunimi afatgjatë të personalizuara sipas nevojave specifike. Le të diskutojmë se si mund të punoj me ju në mënyrë të vazhdueshme.
+    - title: Rreth Meje
       questions:
-        - label: What do you enjoy most about your work?
+        - label: Çfarë ju pëlqen më shumë për punën tuaj?
           content: |
-            I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
-        - label: What are your hobbies outside of work?
+            E dua sfidën e zgjidhjes së problemeve komplekse përmes dizajnit dhe hapësirave kreative. Është jashtëzakonisht shpërblyes të shikosh njerëzit duke jetuar dhe punuar në diçka që kam krijuar dhe ta gjesh atë vërtet të dobishme dhe të këndshme. Lidhja e hendekut midis nevojave të klientit dhe mundësive hapësinore, dhe krijimi i hapësirave ku krijohen kujtime dhe lidhen njerëzit, është ajo që më eksciton vërtet.
+        - label: Cilat janë hobitë tuaja jashtë punës?
           content: |
-            When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.
+            Kur nuk po dizajnoj ose vizitoj kantiere, gëzohem duke eksploruar qytetet dhe lagjet e ndryshme, duke provuar kafene të reja, dhe duke vizituar ekspozita arti dhe arkitekture. Gjithashtu jam e apasionuar pas fotografisë dhe kontribuoj ndonjëherë në projekte lokale të revitalizimit urban në Prizren dhe Kosovë.
