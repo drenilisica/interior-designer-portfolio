@@ -1,6 +1,6 @@
 /// <reference types="@nuxt/eslint" />
-/// <reference types="@nuxt/ui" />
 /// <reference types="@nuxt/image" />
+/// <reference types="@nuxt/ui" />
 /// <reference types="@nuxt/content" />
 /// <reference types="@vueuse/nuxt" />
 /// <reference types="nuxt-og-image" />
