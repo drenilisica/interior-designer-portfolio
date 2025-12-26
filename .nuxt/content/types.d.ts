@@ -87,6 +87,12 @@ declare module '@nuxt/content' {
     url: string;
     tags: string[];
     date: string;
+    gallery?: {
+    src: string;
+    alt: string;
+    }[];
+    featured?: boolean;
+    details?: string;
   }
   
    /* eslint-disable */

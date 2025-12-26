@@ -5,15 +5,368 @@ CREATE TABLE IF NOT EXISTS _content_index (id TEXT PRIMARY KEY, "title" VARCHAR,
 INSERT INTO _content_index VALUES ('index/index.yml', 'Përshëndetje, unë jam Jehona Xhoxhaj, Dizajnere e Brendshme', '{"title":"Rreth Meje","description":"E lindur më 22.06.2003 në Prizren, jam dizajnere e brendshme me pasion për krijimin e hapësirave që bashkojnë njerëzit dhe frymëzojnë jetën e tyre të përditshme.\n\nDua të dizajnoj hapësira ku krijohen kujtime. Dua të krijoj shtëpi ku rriten familjet, shkolla ku lindin miqësi dhe spitale ku njerëzit gjejnë shpresë. Dizajnimi është mënyra ime për të bashkuar njerëzit, për t''u dhënë atyre hapësira që i bëjnë të ndihen të sigurt, të dashur dhe të frymëzuar.\n"}', '{"title":"Artikujt e Fundit","description":"Disa nga mendimet e mia të fundit rreth dizajnit të brendshëm"}', NULL, 'Dizajnoj ambiente që kombinojnë estetikën me funksionalitetin praktik, duke sjellë ide në jetë përmes kreativitetit dhe planifikimit të detajuar.', '{"title":"Përvoja e Punës","items":[{"position":"Dizajnere e Lirë në","date":"2023 - Tani","company":{"name":"Projekte të Ndryshme","logo":"i-simple-icons-nuxtdotjs","url":"#","color":"#00DC82"}},{"position":"Dizajnere e Brendshme në","date":"2022 - 2023","company":{"name":"Argjendaria ANNA","logo":"i-simple-icons-raycast","url":"#","color":"#FF6363"}},{"position":"Projekti i Parë Profesional","date":"2022","company":{"name":"Rimodelimi ANNA","logo":"i-simple-icons-linear","url":"#","color":"#5E6AD2"}}]}', 'yml', '{"title":"Pyetjet e Shpeshta","description":"Përgjigje për pyetjet e zakonshme rreth procesit dhe shërbimeve të mia.","categories":[{"title":"Shërbimet & Procesi","questions":[{"label":"Çfarë shërbimesh ofroni?","content":"Specializohem në dizajn të brendshëm rezidencial dhe komercial. Kjo përfshin konsultime fillestare, koncepte të dizajnit, plane hapësinore dhe planimetri 2D, zgjedhje materialesh dhe mobilierësh, vizualizime 3D, mbikëqyrje të zbatimit, dhe koordinim me kontraktorë. Gjithashtu punoj në dizajnimin e mobiljeve të personalizuara. Qëllimi im është të krijoj hapësira që janë të bukura, funksionale dhe reflektojnë personalitetin dhe nevojat tuaja.\n"},{"label":"Si është procesi juaj i dizajnit?","content":"Procesi im fillon me një konsultë të detajuar për të kuptuar vizionin, nevojat dhe buxhetin tuaj. Më pas kaloj në fazën e hulumtimit dhe planifikimit, ku zhvilloj koncepte dhe plane hapësinore. Krijoni vizualizime 3D që ju ndihmojnë të shikoni se si do të duket hapësira juaj. Pas aprovimit, bashkëpunoj ngushtë me kontraktorë dhe mjeshtër për zbatimin e projektit, duke siguruar që çdo detaj të realizohet sipas planit.\n"},{"label":"Punoni me biznese të vogla?","content":"Absolutisht! Gëzohem të punoj me biznese të vogla për të ndihmuar në formësimin e vizionit të tyre të hapësirës dhe për të krijuar ambiente miqësore për klientët që krijojnë përshtypje të parë të fortë. Kam përvojë në dizajnimin e hapësirave komerciale si argjendari, restorante, zyra dhe më shumë.\n"}]},{"title":"Çmimet & Kohëzgjatja","questions":[{"label":"Sa kushton zakonisht një projekt?","content":"Kostot e projektit variojnë bazuar në përmasa, kompleksitet, zgjedhje materialesh dhe kohëzgjatje. Për projekte gjithëpërfshirëse të dizajnit të brendshëm, angazhimet e mia zakonisht fillojnë rreth €2,500, me projekte mesatare që variojnë midis €4,000 dhe €12,000. Për konsultime ose detyra specifike dizajni, tarifa ime ditore është €400. Çdo projekt është unik dhe jap ofertë të personalizuar pas konsultës fillestare.\n"},{"label":"Cilat janë kushtet tuaja të pagesës?","content":"Në përgjithësi kërkoj një depozitë 40% për të planifikuar projektin dhe filluar punën, me 60% të mbetur që paguhet pas përfundimit të suksesshëm të projektit dhe dorëzimit. Për projekte më të mëdha, mund të ndajmë pagesat në faza. Pranoj pagesa përmes transferimit bankar.\n"},{"label":"Sa zgjat zakonisht një projekt?","content":"Kohëzgjatja varet shumë nga përmasa dhe kompleksiteti i projektit. Projektet më të vogla si dizajni i një dhome mund të zgjatin 2-3 javë, ndërsa projektet më të mëdha si rimodelimi i plotë i një apartamenti ose hapësire komerciale mund të variojnë nga 6 javë deri në 3 muaj. Gjithmonë jap një vlerësim të detajuar të kohëzgjatjes pas konsultës fillestare dhe vlerësimit të projektit.\n"},{"label":"Ofroni mbështetje të vazhdueshme?","content":"Po, për klientë që kanë nevojë për mbështetje të vazhdueshme të dizajnit, zhvillim të projekteve të reja, ose konsultime periodike, ofroj opcione bashkëpunimi afatgjatë të personalizuara sipas nevojave specifike. Le të diskutojmë se si mund të punoj me ju në mënyrë të vazhdueshme.\n"}]},{"title":"Rreth Meje","questions":[{"label":"Çfarë ju pëlqen më shumë për punën tuaj?","content":"E dua sfidën e zgjidhjes së problemeve komplekse përmes dizajnit dhe hapësirave kreative. Është jashtëzakonisht shpërblyes të shikosh njerëzit duke jetuar dhe punuar në diçka që kam krijuar dhe ta gjesh atë vërtet të dobishme dhe të këndshme. Lidhja e hendekut midis nevojave të klientit dhe mundësive hapësinore, dhe krijimi i hapësirave ku krijohen kujtime dhe lidhen njerëzit, është ajo që më eksciton vërtet.\n"},{"label":"Cilat janë hobitë tuaja jashtë punës?","content":"Kur nuk po dizajnoj ose vizitoj kantiere, gëzohem duke eksploruar qytetet dhe lagjet e ndryshme, duke provuar kafene të reja, dhe duke vizituar ekspozita arti dhe arkitekture. Gjithashtu jam e apasionuar pas fotografisë dhe kontribuoj ndonjëherë në projekte lokale të revitalizimit urban në Prizren dhe Kosovë.\n"}]}]}', '{"links":[{"label":"Shiko Projektet","to":"/projects","color":"neutral"}],"images":[{"src":"/hero/random-1.avif","alt":"Projekt 1"},{"src":"/hero/random-2.avif","alt":"Projekt 2"},{"src":"/hero/random-3.avif","alt":"Projekt 3"},{"src":"/hero/random-4.avif","alt":"Projekt 4"},{"src":"/hero/random-5.avif","alt":"Projekt 5"},{"src":"/hero/random-6.avif","alt":"Projekt 6"},{"src":"/hero/random-7.avif","alt":"Projekt 7"},{"src":"/hero/random-8.avif","alt":"Projekt 8"},{"src":"/hero/random-9.avif","alt":"Projekt 9"}]}', '{}', 'true', '/', '{"title":"Jehona Xhoxhaj - Dizajnere e Brendshme","description":"Mirë se vini në portofoliun tim! Unë jam Jehona Xhoxhaj, dizajnere e brendshme me bazë në Prizren. Specializohem në krijimin e hapësirave që janë të bukura, funksionale dhe të përshtatura për nevojat e çdo klienti."}', 'index', '[{"quote":"Jehona ka një aftësi të rrallë për të balancuar estetikën e bukur me funksionalitetin praktik. Rimodelimi i shtëpisë sonë jo vetëm që dukej më mirë, por gjithashtu e bëri jetën tonë të përditshme shumë më të lehtë dhe më komode. Ajo vërtet e kupton se si njerëzit jetojnë në hapësira.","author":{"name":"Ariana Musliu","description":"Pronare e Apartamentit në Prishtinë","avatar":{"src":"https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80","srcset":"https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"}}},{"quote":"Puna me Jehonën ishte vendimi më i mirë që bëmë për restorantin tonë. Ajo nuk dha vetëm dizajne—ajo sfidoi supozimet tona, kreu hulumtime të thella për ambientët e ngjashëm, dhe krijoi një hapësirë që vërtet rezonoi me klientët tanë. Procesi ishte profesional dhe i detajuar në çdo hap.","author":{"name":"Mentor Krasniqi","description":"Bashkëthemeluesi i Restorantit Shija","avatar":{"src":"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80","srcset":"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"}}},{"quote":"Jehona dallohet në aftësinë e saj për të përkthyer hapësira komplekse në ambiente intuitive dhe funksionale. Puna e saj në zyrat tona nuk ishte vetëm vizualisht mahnitëse—ajo ndryshoi në mënyrë themelore mënyrën se si ekipi ynë bashkëpunon dhe ndihet në vendin e punës. Kreativiteti dhe profesionalizmi i saj janë të jashtëzakonshëm.","author":{"name":"Dr. Luana Hoxha","description":"Drejtoreshë e Inovacionit në Tech Solutions","avatar":{"src":"https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80","srcset":"https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x"}}}]', 'nD2KwhspaSZzkZtodwHrVgjNVPb7X8He2ppkkhXSfQk'); -- nD2KwhspaSZzkZtodwHrVgjNVPb7X8He2ppkkhXSfQk
 UPDATE _content_info SET ready = true WHERE id = 'checksum_index'; -- meta
 CREATE TABLE IF NOT EXISTS _content_info (id TEXT PRIMARY KEY, "ready" BOOLEAN, "structureVersion" VARCHAR, "version" VARCHAR, "__hash__" TEXT UNIQUE); -- structure
-INSERT INTO _content_info VALUES ('checksum_projects', false, 'fPMREOruI1oepfApCB9vNqg8eQ42EjGDvAgUbFzMyDg', 'v3.5.0--Sg-qpIqM7rXHXscI67-Zcm43oBHH8eCBvw3HLAwSIB0', 'b6By2YN_F0i8haReSspzimimAM3TTBWjWqLMu1-WyQ8'); -- meta
+INSERT INTO _content_info VALUES ('checksum_projects', false, 'W3lYJVVViporRMAhyQrb7sEH7yFPGsDbvL8PexCbHb8', 'v3.5.0--z8fBGJJRi26II3Xu_28ksbhxbCZrxZxfckIs5EmSuC0', '8Ss_XGV2c1RKb9pjPSlDpzzjC0NoUb5pwOdSK8bOmYk'); -- meta
 DROP TABLE IF EXISTS _content_projects; -- structure
-CREATE TABLE IF NOT EXISTS _content_projects (id TEXT PRIMARY KEY, "title" VARCHAR, "date" DATE, "description" VARCHAR, "extension" VARCHAR, "image" VARCHAR, "meta" TEXT, "stem" VARCHAR, "tags" TEXT, "url" VARCHAR, "__hash__" TEXT UNIQUE); -- structure
-INSERT INTO _content_projects VALUES ('projects/projects/anna-jewelry.yml', 'ANNA - Remodeling Dyqani Bizhuterive', '2024-03-15T00:00:00.000Z', 'Projekti im i parë profesional - transformimi i plotë i dyqanit të bizhuterisë ANNA, duke krijuar një hapësirë moderne dhe funksionale që tërheq klientët dhe ekspozon produktet në mënyrë elegante.', 'yml', '/projects/argjendaria/argjendaria.JPG', '{"featured":true,"gallery":[{"src":"/projects/argjendaria/argjendaria.JPG","alt":"Pamja kryesore e dyqanit ANNA"},{"src":"/projects/argjendaria/argjendaria-1.JPG","alt":"Detaje të brendshme dyqani"},{"src":"/projects/argjendaria/argjendaria-2.JPG","alt":"Vitrina ekspozimi"},{"src":"/projects/argjendaria/argjendaria-3.JPG","alt":"Sistemi i ndriçimit"},{"src":"/projects/argjendaria/argjendaria-4.JPG","alt":"Zonë shitje"},{"src":"/projects/argjendaria/argjendaria-5.JPG","alt":"Detaje dizajni"},{"src":"/projects/argjendaria/argjendaria-6.JPG","alt":"Pamje tjetër e dyqanit"},{"src":"/projects/argjendaria/argjendaria-7.JPG","alt":"Detaje shtesë"}],"details":"## Rreth Projektit\n\nDyqani i bizhuterisë ANNA ishte projekti im i parë profesional - një sfidë e bukur që më lejoi të kombinoj kreativitetin me funksionalitetin praktik. Klienti dëshironte një hapësirë që të pasqyronte elegancën e produkteve të tyre duke qenë njëkohësisht e përshtatshme për shitje dhe eksponim.\n\n## Procesi i Dizajnit\n\n### Faza 1: Analiza e Hapësirës Ekzistuese\n\nFillova me një analizë të detajuar të hapësirës ekzistuese, duke identifikuar problemet kryesore:\n- Organizim jo-optimal i hapësirës\n- Ndriçim i pamjaftueshëm\n- Mungesa e fokusit vizual\n- Mobilje të vjetëruara që nuk shfrytëzonin hapësirën\n\n### Faza 2: Konceptimi\n\nZhvillova një koncept që bazohet në:\n- **Ngjyra neutrale** që lejojnë produktet të shkëlqejnë\n- **Ndriçim i stratifikuar** që krijon atmosferë dhe thekson produktet\n- **Linja të pastra** moderne që japin elegancë\n- **Rrjedhje e qartë** e lëvizjes së klientëve\n\n### Faza 3: Dizajni i Detajuar\n\nKrijova:\n- Planimetri të detajuara 2D\n- Vizualizime 3D realistike\n- Dizajne të personalizuara për mobiljet e ekspozimit\n- Plan të plotë të ndriçimit\n\n### Faza 4: Realizimi\n\nMbikëqyra procesin e ndërtimit duke siguruar që çdo detaj të realizohej sipas projektit. Bashkëpunimi i ngushtë me zejtarët lokale ishte kyçi i suksesit.\n\n## Rezultati\n\nHapësira e re është moderne, funksionale dhe tërheqëse. Klientët tani kanë një eksperiencë më të mirë blerjeje, ndërsa produktet eksponohen në mënyrën më të mirë të mundshme.\n\n### Elementet Kryesore:\n- Vitrina të personalizuara me ndriçim LED\n- Tavolina qendrore për konsultime\n- Pasqyra të pozicionuara strategjikisht\n- Zonë pritjeje komforte\n- Sistem ndriçimi i rregullueshëm\n\n## Mësimet e Mësuara\n\nKy projekt më mësoi rëndësinë e:\n- Dëgjimit aktiv të nevojave të klientit\n- Balancimit të estetikës me funksionalitetin\n- Bashkëpunimit me zejtarë dhe furnitorë\n- Fleksibilitetit gjatë procesit të ndërtimit\n\nËshtë një projekt që e mbaj në zemër dhe që më dha besim për të vazhduar në këtë profesion.\n"}', 'projects/anna-jewelry', '["Remodeling","Komercial","Mobilje të Personalizuara","Dizajn Modern"]', '#', 'RvKeBKgcVywpaDsZnh6YYmQfCP-fXEVcYl_pQhr8YdQ');
-INSERT INTO _content_projects VALUES ('projects/projects/bedroom-designs.yml', 'Dhomë Gjumi Moderne', '2024-05-20T00:00:00.000Z', 'Dizajn i një dhome gjumi që kombinon komfortin maksimal me estetikë bashkëkohore, duke krijuar një oazë relaksimi për klientin.', 'yml', '/projects/bedroom/bedroom.JPG', '{"featured":true,"gallery":[{"src":"/projects/bedroom/bedroom.JPG","alt":"Pamja e përgjithshme e dhomës së gjumit"},{"src":"/projects/bedroom/bedroom2.JPG","alt":"Detaje të krevatit"},{"src":"/projects/bedroom/bedroom3.JPG","alt":"Zonë relaksimi"},{"src":"/projects/bedroom/bedroom4.JPG","alt":"Guarderobë e integruar"},{"src":"/projects/bedroom/bedroom5.JPG","alt":"Ndriçim dhe dekor"},{"src":"/projects/bedroom/bedroom6.JPG","alt":"Detaje stilistike"},{"src":"/projects/bedroom/bedroom7.JPG","alt":"Pamje alternative"},{"src":"/projects/bedroom/bedroom8.JPG","alt":"Tekstile dhe aksesorë"},{"src":"/projects/bedroom/bedroom9.JPG","alt":"Detaje finale"}],"details":"## Koncepti\n\nKy projekt u fokusua në krijimin e një hapësire gjumi që është sa relaksuese aq edhe elegante. Klienti dëshironte një ambient minimal por të ngrohtë, me vëmendje të veçantë ndaj cilësisë së gjumit.\n\n## Zgjidhjet e Dizajnit\n\n### Ngjyrat dhe Materialet\n- Paletë ngjyrash neutrale me akcente të buta\n- Tekstile natyrale për shtrat dhe perdeve\n- Dysheme druri për ngrohtësi\n- Elemete metali për kontrast modern\n\n### Mobilimi\n- Krevat i personalizuar me kokë krevateje të kapitonuar\n- Dollape të integruara që maksimizojnë hapësirën\n- Tavolina anësore minimale\n- Karrige leximi në këndin pranë dritares\n\n### Ndriçimi\n- Drita qendrore me dimmer\n- Ndriçim i indirekt pas kokës së krevatit\n- Llamba leximi të rregullueshme\n- Ndriçim natyror i optimizuar me perdeve të dyanshme\n\n## Rezultati\n\nDhoma e gjumit u shndërrua në një hapësirë që promovon gjumin e mirë dhe relaksimin. Çdo element u zgjodhë me kujdes për të krijuar një harmoni vizuale dhe funksionale.\n\nKlienti raportoi përmirësim të cilësisë së gjumit dhe një ndjenjë më të madhe mirëqenieje në hapësirën e tyre personale.\n"}', 'projects/bedroom-designs', '["Rezidencial","Dhomë Gjumi","Dizajn Modern","Minimalizëm"]', '#', 'kHptdZMNsXM5gflX87AQ44uhNIjVB4fgLXu6ddBDePc');
-INSERT INTO _content_projects VALUES ('projects/projects/custom-furniture.yml', 'Mobilje të Personalizuara - Guarderobë', '2024-08-05T00:00:00.000Z', 'Dizajn dhe prodhim i mobileve të personalizuara që përputhen perfekt me hapësirën dhe nevojat e klientit, duke krijuar copë unike dhe funksionale.', 'yml', '/projects/wardrobe/wardrobe2.JPG', '{"featured":true,"gallery":[{"src":"/projects/wardrobe/wardrobe2.JPG","alt":"Guarderobë e personalizuar"},{"src":"/projects/wardrobe/wardrobe3.JPG","alt":"Detaje të organizimit"},{"src":"/projects/wardrobe/wardrobe-plan.JPG","alt":"Planimetria e garderobes"}],"details":"## Pse Mobilje të Personalizuara?\n\nNganjëherë mobiljet standarde thjesht nuk përputhen me hapësirën ose nevojat specifike të një projekti. Në këto raste, dizajni i mobileve të personalizuara është zgjidhja perfekte që lejon:\n- Shfrytëzim optimal të hapësirës\n- Përputhje të plotë me stilin e interierit\n- Funksionalitet të përshtatur për nevoja specifike\n- Krijim të copëve unike që kanë karakter\n\n## Procesi i Punës\n\n### 1. Konsultimi dhe Marrja e Masave\nFillon me një takim të detajuar ku diskutojmë:\n- Nevojat funksionale\n- Preferencat estetike\n- Buxhetin dhe afatin kohor\n- Marrja e masave të sakta të hapësirës\n\n### 2. Dizajni Konceptual\nKrijoj skica fillestare dhe vizualizime që tregojnë:\n- Përmasat dhe proporcionet\n- Materialet dhe ngjyrat\n- Detajet e ndërtimit\n- Si mobilia integrohet në hapësirë\n\n### 3. Zhvillimi Teknik\nPërgatitja e planeve teknike të detajuara:\n- Vizatime inxhinierike me përmasa\n- Lista e materialeve\n- Instruksione ndërtimi\n- Specifikimet e hardware-it\n\n### 4. Bashkëpunimi me Zejtarët\nPunoj ngushtë me zejtarë lokalë të aftë që:\n- Kuptojnë vizionin tim\n- Kanë ekspertizë në punën me dru/metal\n- Vëmendje ndaj detajeve\n- Angazhim ndaj cilësisë\n\n### 5. Mbikëqyrja e Prodhimit\nGjatë prodhimit:\n- Vizita të rregullta në punëtori\n- Kontrolli i cilësisë në çdo fazë\n- Zgjidhje e shpejtë e çdo problemi\n- Sigurimi i standardeve të larta\n\n### 6. Instalimi dhe Finalizimi\n- Instalim i kujdesshëm në hapësirë\n- Rregullime finale për përputhje perfekte\n- Udhëzime për mirëmbajtje\n- Garanci për cilësinë e punës\n\n## Guarderobë me Organizim të Plotë\n\nSistem garderobes së personalizuar që ofron:\n- Organizim optimal për rroba dhe këpucë\n- Sirtarë me ndarja për aksesorë\n- Rafte të rregullueshme\n- Ndriçim të integruar\n- Pasqyrë në madhësi të plotë\n\n## Materialet e Preferuara\n\nPunoj me një gamë të gjerë materialesh:\n- **Dru masiv**: Oak, walnut, ash për copë të qëndrueshme\n- **MDF/Plywood**: Për sipërfaqe të lakuara\n- **Metal**: Për struktura dhe detaje industriale\n- **Xham**: Për rafte dhe sipërfaqe elegante\n- **Lëkurë/Tekstile**: Për kapitonime\n\n## Përfitimet\n\nMobiljet e personalizuara ofrojnë:\n- **Përshtatshmëri perfekte** në hapësirë\n- **Cilësi superiore** krahasuar me alternativat prodhuara në masë\n- **Dizajn unik** që pasqyron personalitetin tuaj\n- **Vlerë afatgjatë** përmes durabilitetit dhe cilësisë\n- **Zgjidhje ekzakte** për nevoja specifike\n\n## Investimi\n\nNdërsa mobiljet e personalizuara kërkojnë investim më të madh fillimisht, ato ofrojnë:\n- Cilësi që zgjat dekada\n- Funksionalitet që përputhet me nevojat tuaja\n- Kënaqësi të përditshme të përdorimit\n- Shtim vlere në pronën tuaj\n\nÇdo copë mobilie që krijoj është rezultat i pasionit tim për dizajn dhe respektit për artizanatin e mirë.\n"}', 'projects/custom-furniture', '["Mobilje","E Personalizuar","Artizanale","Dizajn Unik"]', '#', '3o4GmvGU3XAvdBxl7eC_Y8_kGPyCl42_wdaXztLnhh4');
-INSERT INTO _content_projects VALUES ('projects/projects/kids-rooms.yml', 'Dhomë Fëmijësh Kreative', '2024-07-01T00:00:00.000Z', 'Dizajn i një dhome për fëmijë që stimulon kreativitetin, promovon organizimin dhe rritet me fëmijën përmes viteve.', 'yml', '/projects/children-room/children-room.JPG', '{"featured":true,"gallery":[{"src":"/projects/children-room/children-room.JPG","alt":"Pamja e përgjithshme e dhomës së fëmijëve"},{"src":"/projects/children-room/children-room2.JPG","alt":"Detaje të dhomës"}],"details":"## Filozofia e Dizajnit\n\nDhoma e fëmijëve duhet të jetë më shumë se thjesht një vend për të fjetur - duhet të jetë një hapësirë ku ata mund të luajnë, mësojnë, dhe rriten. Ky projekt u krijua me filozofinë që dizajni duhet të evolvojë me fëmijën.\n\n## Nevojat e Klientit\n\nPrindërit dëshironin:\n- Hapësirë e sigurt dhe e përshtatshme për moshën\n- Zonë loje që nuk merr gjithë dhomën\n- Ruajtje të mjaftueshme për lodra dhe rroba\n- Hapësirë për detyra shkollore në të ardhmen\n- Dizajn që nuk duhet ndryshuar çdo 2-3 vjet\n\n## Zgjidhjet\n\n### Organizimi i Hapësirës\n- **Zona gjumi**: Krevat i sigurt me garde mbrojtëse\n- **Zona loje**: Qilim i butë me ruajtje lodër të lehtë për t''u arritur\n- **Zona mësimi**: Tavolinë dhe karrige që rriten me fëmijën\n- **Zona ruajtje**: Sistem modular që përshtatet me nevoja\n\n### Mobilimi i Zgjuar\n- Krevat me hapësirë ruajtje poshtë\n- Guarderobë me shtiza të ulëta që fëmija mund t''i arrijë\n- Tavolinë pune me lartësi të rregullueshme\n- Rafte në nivele të ndryshme për akses të lehtë\n\n### Ngjyrat dhe Tema\n- Ngjyra bazë neutrale për murët (e bardhë, gri e lehtë)\n- Akcente me ngjyra të gjalla përmes aksesorëve\n- Murals ose stikera që mund të ndryshohen lehtë\n- Tekstile me modele plot ngjyra\n\n### Ruajtja Kreative\n- Kuti me rrota për lodra që fëmija mund t''i lëvizë\n- Rafte të hapura me shporta me etiketë\n- Pocket organizers për objekte të vogla\n- Spacio në mur për \"galeri arti\" të fëmijës\n\n### Siguritë\n- Kënde të rrumbullakëta në të gjithë mobiljet\n- Priza të siguruara\n- Mobilje të fiksuara në mur\n- Materiale jo-toksike dhe të lehta për t''u pastruar\n\n## Elemente të Veçanta\n\n### Muri Krijues\nKrijova një \"mur të gjelbër\" me bojë të larueshme ku fëmija mund të vizatojë me shkumës. Kjo stimulon kreativitetin pa u shqetësuar për çrregullsi.\n\n### Sistemi i Dritave\n- Ndriçim qendror i zbehtë për natën\n- Llamba leximi për kohën e përrallës\n- Drita natës me sensor për sigurinë\n- LED strip në ngjyra që mund të ndryshohen\n\n### Qoshja e Leximit\nKrijova një qoshe të veçantë leximi me jastëkë të butë, rafte librash në lartësinë e duhur, dhe ndriçim të përshtatshëm - një hapësirë e vogël magjike që fëmija e do.\n\n## Fleksibiliteti për të Ardhmen\n\nDizajni u krijua që të rritet me fëmijën:\n- Mobiljet neutrale punojnë nga mosha 3 deri në adoleshencë\n- Ngjyrat mund të ndryshohen lehtë me tekstile të reja\n- Zona loje mund të shndërrohet në hapësirë studimi\n- Sistemi i ruajtjes përshtatet për nevoja të ndryshme\n\n## Reagimi\n\nPrindërit janë të kënaqur me sa funksionale dhe e këndshme është dhoma. Fëmija e quan atë \"dhoma më e bukur në botë\" - dhe kjo është shpërblimi më i mirë për një dizajner!\n"}', 'projects/kids-rooms', '["Rezidencial","Dhomë Fëmijësh","Funksionale","E Ngjyeshme"]', '#', 'IcB5yW84vUUNFxTXGrO2zOskbpHqHzL9UTeeVPWYD1o');
-INSERT INTO _content_projects VALUES ('projects/projects/kitchen-designs.yml', 'Kuzhinë Bashkëkohore', '2024-04-10T00:00:00.000Z', 'Rinovim i plotë i kuzhinës që kombinon funksionalitetin e lartë me dizajn të pastër modern, duke krijuar zemrën e vërtetë të shtëpisë.', 'yml', '/projects/kitchen/kitchen.JPG', '{"featured":true,"gallery":[{"src":"/projects/kitchen/kitchen.JPG","alt":"Pamja e përgjithshme e kuzhinës"},{"src":"/projects/kitchen/kitchen2.JPG","alt":"Detaje të dizajnit"},{"src":"/projects/kitchen/kitchen3.JPG","alt":"Zonë gatimi"},{"src":"/projects/kitchen/kitchen-plan.JPG","alt":"Planimetria e kuzhinës"}],"details":"## Vizioni i Projektit\n\nKuzhina është zemra e shtëpisë, dhe ky projekt kishte për qëllim të krijonte një hapësirë ku familja mund të gatonte, hante dhe kalonte kohë bashkë në një ambient të bukur dhe funksional.\n\n## Sfida\n\nHapësira ekzistuese ishte e vjetëruar dhe jo-funksionale:\n- Dispozitë e dobët e mobilieve\n- Mungesë hapësire për ruajtje\n- Ndriçim i pamjaftueshëm\n- Aparate të vjetruara\n- Sipërfaqe pune të kufizuara\n\n## Zgjidhja\n\n### Organizimi i Hapësirës\n- Layout në formë L që optimizon rrjedhën e punës\n- Ishull qendror që shërben si zonë gatimi dhe ngrënie\n- Zona të qarta për përgatitje, gatim dhe pastrimi\n\n### Mobilimi dhe Ruajtja\n- Dollape të personalizuara deri në tavan për maksimizim të hapësirës\n- Sisteme të zgjuara ruajtje me sirtarë të thellë\n- Rafte të hapura për eksponim të enëve dekorative\n- Pantry i integruar për ushqime dhe pajisje\n\n### Materialet\n- Sipërfaqe pune prej guri artificial - të qëndrueshme dhe elegante\n- Fasada dollabesh në ngjyrë të bardhë mat me dritare xhami\n- Pllaka keramike për muret në ngjyrë neutrale\n- Dysheme laminuar rezistente ndaj ujit\n\n### Ndriçimi\n- Drita të varura moderne mbi ishull\n- Ndriçim LED nën dollabe për sipërfaqet e punës\n- Llamba tavani të integruara\n- Dritare të mëdha që lejojnë dritë natyrale\n\n### Aparatet\n- Aparat i integruar i fundit të lartë\n- Sobë me kapuç elegant\n- Frigorifer i integruar në dollabe\n- Enëlarëse moderne e heshtë\n\n## Impakti\n\nKuzhina e re ka transformuar mënyrën se si familja përdor hapësirën:\n- 50% më shumë hapësirë ruajtje\n- Rrjedhje pune më efikase\n- Hapësirë sociale për mikpritje\n- Vlerë e shtuar ndaj shtëpisë\n\nKlienti thotë se tani gatimi është një kënaqësi në vend të një detyre!\n"}', 'projects/kitchen-designs', '["Rezidencial","Kuzhinë","Rinovim","Funksionale"]', '#', 'jHQRen1tIIiPwRtB1XkWfQHXT8NguEGWCDnYkDhLbaA');
-INSERT INTO _content_projects VALUES ('projects/projects/living-rooms.yml', 'Dhomë Ndenjeje Elegante', '2024-06-15T00:00:00.000Z', 'Transformim i një dhome ndenjeje në një hapësirë sofistikuar për argëtim dhe relaksim familjar, me vëmendje të veçantë ndaj detajeve.', 'yml', '/projects/living-room/living-room.JPG', '{"featured":true,"gallery":[{"src":"/projects/living-room/living-room.JPG","alt":"Pamja e përgjithshme e dhomës së ndenjjes"},{"src":"/projects/living-room/living-room2.JPG","alt":"Zonë ulëse"},{"src":"/projects/living-room/living-room3.JPG","alt":"Detaje dekorative"},{"src":"/projects/living-room/living-room4.JPG","alt":"Sistemi i ruajtjes"},{"src":"/projects/living-room/living-room5.JPG","alt":"Këndvështrim alternative"}],"details":"## Koncepti i Dizajnit\n\nDhoma e ndenjjes është hapësira ku familja kalon më shumë kohë së bashku. Qëllimi ishte të krijohej një ambient që është njëkohësisht elegant për të pritur mysafirë dhe komfort për përdorim të përditshëm.\n\n## Qasja Dizajnuese\n\n### Planifikimi i Hapësirës\n- Zonë qendrore me divan të madh dhe fotolj\n- Këndi leximi pranë dritares\n- Mur për televizor me ruajtje të integruar\n- Tavolinë qendrore multifunksionale\n\n### Paletë Ngjyrash\n- Bazë neutrale (gri, bezh, e bardhë)\n- Akcente në ngjyra të thella (blu navy, jeshile smaragd)\n- Tekstile të pasura për ngrohtësi\n- Arte muri për pikë fokusi\n\n### Mobilimi\n- Divan modular që përshtatet me nevoja të ndryshme\n- Fotolj të rehatshëm me jastek\n- Tavolina kafeje me ruajtje të fshehur\n- Bibliotekë e personalizuar nga muri në mur\n- Mobilje TV me sistem të integruar të kabllovës\n\n### Tekstilet dhe Aksesorët\n- Qilim i madh që përcakton zonën e uljes\n- Perdeve të rënda për privatësi dhe kontrolli drite\n- Jastëkë dekorativë në modele dhe tekstura të ndryshme\n- Mbulesa komode për sezone të ndryshme\n\n### Ndriçimi në Shtresa\n- **Ndriçim ambient**: Llamba tavani me dimmer\n- **Ndriçim detyrash**: Llamba leximi dhe dyshemeje\n- **Ndriçim dekorativ**: Llamba tavoline dhe gjirlanda LED\n- **Ndriçim natyror**: Optimizuar me perdeve transparente\n\n## Karakteristikat Speciale\n\n### Muri i Akcentit\nKrijova një mur aksenti me panele druri që shton ngrohtësi dhe teksturë. Ky element bëhet pikë fokusi e dhomës dhe krijon thellësi vizuale.\n\n### Sistemi i Ruajtjes\nBibliotekat e personalizuara ofrojnë ruajtje të madhe duke mbetur elegante. Raftet e hapura eksponojnë libra dhe objekte dekorative, ndërsa dollapet e mbyllura fshihin çrregullsinë.\n\n### Teknologjia e Integruar\n- Sistem audio të fshehur\n- Ndriçim të zgjuar me kontroll nga telefoni\n- Priza USB të integruara në mobilje\n- Sistem TV të organizuar pa kablla të dukshme\n\n## Rezultati Final\n\nDhoma e ndenjjes u shndërrua në një hapësirë e cila:\n- Mirëpret miqtë me elegancë\n- Ofron rehatsi maksimale për familjen\n- Përshtatet me aktivitete të ndryshme\n- Reflekton stilin personal të pronarëve\n\nKlientët janë të kënaqur veçanërisht me sa mirë funksionon hapësira për të dy - mbrëmje të qeta familjare dhe argëtime më formale.\n"}', 'projects/living-rooms', '["Rezidencial","Dhomë Ndenjeje","Elegante","Komode"]', '#', '8qpIad3HcdM6_bd3lemJ-8enRPShfJPi0MtqhxoFe1o');
+CREATE TABLE IF NOT EXISTS _content_projects (id TEXT PRIMARY KEY, "title" VARCHAR, "date" DATE, "description" VARCHAR, "details" VARCHAR NULL, "extension" VARCHAR, "featured" BOOLEAN NULL, "gallery" TEXT NULL, "image" VARCHAR, "meta" TEXT, "stem" VARCHAR, "tags" TEXT, "url" VARCHAR, "__hash__" TEXT UNIQUE); -- structure
+INSERT INTO _content_projects VALUES ('projects/projects/anna-jewelry.yml', 'ANNA - Remodeling Dyqani Bizhuterive', '2024-03-15T00:00:00.000Z', 'Projekti im i parë profesional - transformimi i plotë i dyqanit të bizhuterisë ANNA, duke krijuar një hapësirë moderne dhe funksionale që tërheq klientët dhe ekspozon produktet në mënyrë elegante.', '## Rreth Projektit
+
+Dyqani i bizhuterisë ANNA ishte projekti im i parë profesional - një sfidë e bukur që më lejoi të kombinoj kreativitetin me funksionalitetin praktik. Klienti dëshironte një hapësirë që të pasqyronte elegancën e produkteve të tyre duke qenë njëkohësisht e përshtatshme për shitje dhe eksponim.
+
+## Procesi i Dizajnit
+
+### Faza 1: Analiza e Hapësirës Ekzistuese
+
+Fillova me një analizë të detajuar të hapësirës ekzistuese, duke identifikuar problemet kryesore:
+- Organizim jo-optimal i hapësirës
+- Ndriçim i pamjaftueshëm
+- Mungesa e fokusit vizual
+- Mobilje të vjetëruara që nuk shfrytëzonin hapësirën
+
+### Faza 2: Konceptimi
+
+Zhvillova një koncept që bazohet në:
+- **Ngjyra neutrale** që lejojnë produktet të shkëlqejnë
+- **Ndriçim i stratifikuar** që krijon atmosferë dhe thekson produktet
+- **Linja të pastra** moderne që japin elegancë
+- **Rrjedhje e qartë** e lëvizjes së klientëve
+
+### Faza 3: Dizajni i Detajuar
+
+Krijova:
+- Planimetri të detajuara 2D
+- Vizualizime 3D realistike
+- Dizajne të personalizuara për mobiljet e ekspozimit
+- Plan të plotë të ndriçimit
+
+### Faza 4: Realizimi
+
+Mbikëqyra procesin e ndërtimit duke siguruar që çdo detaj të realizohej sipas projektit. Bashkëpunimi i ngushtë me zejtarët lokale ishte kyçi i suksesit.
+
+## Rezultati
+
+Hapësira e re është moderne, funksionale dhe tërheqëse. Klientët tani kanë një eksperiencë më të mirë blerjeje, ndërsa produktet eksponohen në mënyrën më të mirë të mundshme.
+
+### Elementet Kryesore:
+- Vitrina të personalizuara me ndriçim LED
+- Tavolina qendrore për konsultime
+- Pasqyra të pozicionuara strategjikisht
+- Zonë pritjeje komforte
+- Sistem ndriçimi i rregullueshëm
+
+## Mësimet e Mësuara
+
+Ky projekt më mësoi rëndësinë e:
+- Dëgjimit aktiv të nevojave të klientit
+- Balancimit të estetikës me funksionalitetin
+- Bashkëpunimit me zejtarë dhe furnitorë
+- Fleksibilitetit gjatë procesit të ndërtimit
+
+Është një projekt që e mbaj në zemër dhe që më dha besim për të vazhduar në këtë profesion.
+', 'yml', true, '[{"src":"/projects/argjendaria/argjendaria.JPG","alt":"Pamja kryesore e dyqanit ANNA"},{"src":"/projects/argjendaria/argjendaria-1.JPG","alt":"Detaje të brendshme dyqani"},{"src":"/projects/argjendaria/argjendaria-2.JPG","alt":"Vitrina ekspozimi"},{"src":"/projects/argjendaria/argjendaria-3.JPG","alt":"Sistemi i ndriçimit"},{"src":"/projects/argjendaria/argjendaria-4.JPG","alt":"Zonë shitje"},{"src":"/projects/argjendaria/argjendaria-5.JPG","alt":"Detaje dizajni"},{"src":"/projects/argjendaria/argjendaria-6.JPG","alt":"Pamje tjetër e dyqanit"},{"src":"/projects/argjendaria/argjendaria-7.JPG","alt":"Detaje shtesë"}]', '/projects/argjendaria/argjendaria.JPG', '{}', 'projects/anna-jewelry', '["Remodeling","Komercial","Mobilje të Personalizuara","Dizajn Modern"]', '#', 'SGrCAIQGtrV-Y-WTXgYYhCakOiO9lHaTj4av9WFlgAQ'); -- SGrCAIQGtrV-Y-WTXgYYhCakOiO9lHaTj4av9WFlgAQ
+INSERT INTO _content_projects VALUES ('projects/projects/bedroom-designs.yml', 'Dhomë Gjumi Moderne', '2024-05-20T00:00:00.000Z', 'Dizajn i një dhome gjumi që kombinon komfortin maksimal me estetikë bashkëkohore, duke krijuar një oazë relaksimi për klientin.', '## Koncepti
+
+Ky projekt u fokusua në krijimin e një hapësire gjumi që është sa relaksuese aq edhe elegante. Klienti dëshironte një ambient minimal por të ngrohtë, me vëmendje të veçantë ndaj cilësisë së gjumit.
+
+## Zgjidhjet e Dizajnit
+
+### Ngjyrat dhe Materialet
+- Paletë ngjyrash neutrale me akcente të buta
+- Tekstile natyrale për shtrat dhe perdeve
+- Dysheme druri për ngrohtësi
+- Elemete metali për kontrast modern
+
+### Mobilimi
+- Krevat i personalizuar me kokë krevateje të kapitonuar
+- Dollape të integruara që maksimizojnë hapësirën
+- Tavolina anësore minimale
+- Karrige leximi në këndin pranë dritares
+
+### Ndriçimi
+- Drita qendrore me dimmer
+- Ndriçim i indirekt pas kokës së krevatit
+- Llamba leximi të rregullueshme
+- Ndriçim natyror i optimizuar me perdeve të dyanshme
+
+## Rezultati
+
+Dhoma e gjumit u shndërrua në një hapësirë që promovon gjumin e mirë dhe relaksimin. Çdo element u zgjodhë me kujdes për të krijuar një harmoni vizuale dhe funksionale.
+
+Klienti raportoi përmirësim të cilësisë së gjumit dhe një ndjenjë më të madhe mirëqenieje në hapësirën e tyre personale.
+', 'yml', true, '[{"src":"/projects/bedroom/bedroom.JPG","alt":"Pamja e përgjithshme e dhomës së gjumit"},{"src":"/projects/bedroom/bedroom2.JPG","alt":"Detaje të krevatit"},{"src":"/projects/bedroom/bedroom3.JPG","alt":"Zonë relaksimi"},{"src":"/projects/bedroom/bedroom4.JPG","alt":"Guarderobë e integruar"},{"src":"/projects/bedroom/bedroom5.JPG","alt":"Ndriçim dhe dekor"},{"src":"/projects/bedroom/bedroom6.JPG","alt":"Detaje stilistike"},{"src":"/projects/bedroom/bedroom7.JPG","alt":"Pamje alternative"},{"src":"/projects/bedroom/bedroom8.JPG","alt":"Tekstile dhe aksesorë"},{"src":"/projects/bedroom/bedroom9.JPG","alt":"Detaje finale"}]', '/projects/bedroom/bedroom.JPG', '{}', 'projects/bedroom-designs', '["Rezidencial","Dhomë Gjumi","Dizajn Modern","Minimalizëm"]', '#', 'jHwLntbpzXTnDpnAijhQthO44YcE1f37CJl0cuwfR88'); -- jHwLntbpzXTnDpnAijhQthO44YcE1f37CJl0cuwfR88
+INSERT INTO _content_projects VALUES ('projects/projects/custom-furniture.yml', 'Mobilje të Personalizuara - Guarderobë', '2024-08-05T00:00:00.000Z', 'Dizajn dhe prodhim i mobileve të personalizuara që përputhen perfekt me hapësirën dhe nevojat e klientit, duke krijuar copë unike dhe funksionale.', '## Pse Mobilje të Personalizuara?
+
+Nganjëherë mobiljet standarde thjesht nuk përputhen me hapësirën ose nevojat specifike të një projekti. Në këto raste, dizajni i mobileve të personalizuara është zgjidhja perfekte që lejon:
+- Shfrytëzim optimal të hapësirës
+- Përputhje të plotë me stilin e interierit
+- Funksionalitet të përshtatur për nevoja specifike
+- Krijim të copëve unike që kanë karakter
+
+## Procesi i Punës
+
+### 1. Konsultimi dhe Marrja e Masave
+Fillon me një takim të detajuar ku diskutojmë:
+- Nevojat funksionale
+- Preferencat estetike
+- Buxhetin dhe afatin kohor
+- Marrja e masave të sakta të hapësirës
+
+### 2. Dizajni Konceptual
+Krijoj skica fillestare dhe vizualizime që tregojnë:
+- Përmasat dhe proporcionet
+- Materialet dhe ngjyrat
+- Detajet e ndërtimit
+- Si mobilia integrohet në hapësirë
+
+### 3. Zhvillimi Teknik
+Përgatitja e planeve teknike të detajuara:
+- Vizatime inxhinierike me përmasa
+- Lista e materialeve
+- Instruksione ndërtimi
+- Specifikimet e hardware-it
+
+### 4. Bashkëpunimi me Zejtarët
+Punoj ngushtë me zejtarë lokalë të aftë që:
+- Kuptojnë vizionin tim
+- Kanë ekspertizë në punën me dru/metal
+- Vëmendje ndaj detajeve
+- Angazhim ndaj cilësisë
+
+### 5. Mbikëqyrja e Prodhimit
+Gjatë prodhimit:
+- Vizita të rregullta në punëtori
+- Kontrolli i cilësisë në çdo fazë
+- Zgjidhje e shpejtë e çdo problemi
+- Sigurimi i standardeve të larta
+
+### 6. Instalimi dhe Finalizimi
+- Instalim i kujdesshëm në hapësirë
+- Rregullime finale për përputhje perfekte
+- Udhëzime për mirëmbajtje
+- Garanci për cilësinë e punës
+
+## Guarderobë me Organizim të Plotë
+
+Sistem garderobes së personalizuar që ofron:
+- Organizim optimal për rroba dhe këpucë
+- Sirtarë me ndarja për aksesorë
+- Rafte të rregullueshme
+- Ndriçim të integruar
+- Pasqyrë në madhësi të plotë
+
+## Materialet e Preferuara
+
+Punoj me një gamë të gjerë materialesh:
+- **Dru masiv**: Oak, walnut, ash për copë të qëndrueshme
+- **MDF/Plywood**: Për sipërfaqe të lakuara
+- **Metal**: Për struktura dhe detaje industriale
+- **Xham**: Për rafte dhe sipërfaqe elegante
+- **Lëkurë/Tekstile**: Për kapitonime
+
+## Përfitimet
+
+Mobiljet e personalizuara ofrojnë:
+- **Përshtatshmëri perfekte** në hapësirë
+- **Cilësi superiore** krahasuar me alternativat prodhuara në masë
+- **Dizajn unik** që pasqyron personalitetin tuaj
+- **Vlerë afatgjatë** përmes durabilitetit dhe cilësisë
+- **Zgjidhje ekzakte** për nevoja specifike
+
+## Investimi
+
+Ndërsa mobiljet e personalizuara kërkojnë investim më të madh fillimisht, ato ofrojnë:
+- Cilësi që zgjat dekada
+- Funksionalitet që përputhet me nevojat tuaja
+- Kënaqësi të përditshme të përdorimit
+- Shtim vlere në pronën tuaj
+
+Çdo copë mobilie që krijoj është rezultat i pasionit tim për dizajn dhe respektit për artizanatin e mirë.
+', 'yml', true, '[{"src":"/projects/wardrobe/wardrobe2.JPG","alt":"Guarderobë e personalizuar"},{"src":"/projects/wardrobe/wardrobe3.JPG","alt":"Detaje të organizimit"},{"src":"/projects/wardrobe/wardrobe-plan.JPG","alt":"Planimetria e garderobes"}]', '/projects/wardrobe/wardrobe2.JPG', '{}', 'projects/custom-furniture', '["Mobilje","E Personalizuar","Artizanale","Dizajn Unik"]', '#', '4DZog62zGzFdbHc1AQwOBCTQtLGHZ3ow_l6HRkzt5Qc'); -- 4DZog62zGzFdbHc1AQwOBCTQtLGHZ3ow_l6HRkzt5Qc
+INSERT INTO _content_projects VALUES ('projects/projects/kids-rooms.yml', 'Dhomë Fëmijësh Kreative', '2024-07-01T00:00:00.000Z', 'Dizajn i një dhome për fëmijë që stimulon kreativitetin, promovon organizimin dhe rritet me fëmijën përmes viteve.', '## Filozofia e Dizajnit
+
+Dhoma e fëmijëve duhet të jetë më shumë se thjesht një vend për të fjetur - duhet të jetë një hapësirë ku ata mund të luajnë, mësojnë, dhe rriten. Ky projekt u krijua me filozofinë që dizajni duhet të evolvojë me fëmijën.
+
+## Nevojat e Klientit
+
+Prindërit dëshironin:
+- Hapësirë e sigurt dhe e përshtatshme për moshën
+- Zonë loje që nuk merr gjithë dhomën
+- Ruajtje të mjaftueshme për lodra dhe rroba
+- Hapësirë për detyra shkollore në të ardhmen
+- Dizajn që nuk duhet ndryshuar çdo 2-3 vjet
+
+## Zgjidhjet
+
+### Organizimi i Hapësirës
+- **Zona gjumi**: Krevat i sigurt me garde mbrojtëse
+- **Zona loje**: Qilim i butë me ruajtje lodër të lehtë për t''u arritur
+- **Zona mësimi**: Tavolinë dhe karrige që rriten me fëmijën
+- **Zona ruajtje**: Sistem modular që përshtatet me nevoja
+
+### Mobilimi i Zgjuar
+- Krevat me hapësirë ruajtje poshtë
+- Guarderobë me shtiza të ulëta që fëmija mund t''i arrijë
+- Tavolinë pune me lartësi të rregullueshme
+- Rafte në nivele të ndryshme për akses të lehtë
+
+### Ngjyrat dhe Tema
+- Ngjyra bazë neutrale për murët (e bardhë, gri e lehtë)
+- Akcente me ngjyra të gjalla përmes aksesorëve
+- Murals ose stikera që mund të ndryshohen lehtë
+- Tekstile me modele plot ngjyra
+
+### Ruajtja Kreative
+- Kuti me rrota për lodra që fëmija mund t''i lëvizë
+- Rafte të hapura me shporta me etiketë
+- Pocket organizers për objekte të vogla
+- Spacio në mur për "galeri arti" të fëmijës
+
+### Siguritë
+- Kënde të rrumbullakëta në të gjithë mobiljet
+- Priza të siguruara
+- Mobilje të fiksuara në mur
+- Materiale jo-toksike dhe të lehta për t''u pastruar
+
+## Elemente të Veçanta
+
+### Muri Krijues
+Krijova një "mur të gjelbër" me bojë të larueshme ku fëmija mund të vizatojë me shkumës. Kjo stimulon kreativitetin pa u shqetësuar për çrregullsi.
+
+### Sistemi i Dritave
+- Ndriçim qendror i zbehtë për natën
+- Llamba leximi për kohën e përrallës
+- Drita natës me sensor për sigurinë
+- LED strip në ngjyra që mund të ndryshohen
+
+### Qoshja e Leximit
+Krijova një qoshe të veçantë leximi me jastëkë të butë, rafte librash në lartësinë e duhur, dhe ndriçim të përshtatshëm - një hapësirë e vogël magjike që fëmija e do.
+
+## Fleksibiliteti për të Ardhmen
+
+Dizajni u krijua që të rritet me fëmijën:
+- Mobiljet neutrale punojnë nga mosha 3 deri në adoleshencë
+- Ngjyrat mund të ndryshohen lehtë me tekstile të reja
+- Zona loje mund të shndërrohet në hapësirë studimi
+- Sistemi i ruajtjes përshtatet për nevoja të ndryshme
+
+## Reagimi
+
+Prindërit janë të kënaqur me sa funksionale dhe e këndshme është dhoma. Fëmija e quan atë "dhoma më e bukur në botë" - dhe kjo është shpërblimi më i mirë për një dizajner!
+', 'yml', true, '[{"src":"/projects/children-room/children-room.JPG","alt":"Pamja e përgjithshme e dhomës së fëmijëve"},{"src":"/projects/children-room/children-room2.JPG","alt":"Detaje të dhomës"}]', '/projects/children-room/children-room.JPG', '{}', 'projects/kids-rooms', '["Rezidencial","Dhomë Fëmijësh","Funksionale","E Ngjyeshme"]', '#', 'CDWcYcR3kBWaPIUQYnvwqfbAf_p7gEsMH2AUcmI5pUU'); -- CDWcYcR3kBWaPIUQYnvwqfbAf_p7gEsMH2AUcmI5pUU
+INSERT INTO _content_projects VALUES ('projects/projects/kitchen-designs.yml', 'Kuzhinë Bashkëkohore', '2024-04-10T00:00:00.000Z', 'Rinovim i plotë i kuzhinës që kombinon funksionalitetin e lartë me dizajn të pastër modern, duke krijuar zemrën e vërtetë të shtëpisë.', '## Vizioni i Projektit
+
+Kuzhina është zemra e shtëpisë, dhe ky projekt kishte për qëllim të krijonte një hapësirë ku familja mund të gatonte, hante dhe kalonte kohë bashkë në një ambient të bukur dhe funksional.
+
+## Sfida
+
+Hapësira ekzistuese ishte e vjetëruar dhe jo-funksionale:
+- Dispozitë e dobët e mobilieve
+- Mungesë hapësire për ruajtje
+- Ndriçim i pamjaftueshëm
+- Aparate të vjetruara
+- Sipërfaqe pune të kufizuara
+
+## Zgjidhja
+
+### Organizimi i Hapësirës
+- Layout në formë L që optimizon rrjedhën e punës
+- Ishull qendror që shërben si zonë gatimi dhe ngrënie
+- Zona të qarta për përgatitje, gatim dhe pastrimi
+
+### Mobilimi dhe Ruajtja
+- Dollape të personalizuara deri në tavan për maksimizim të hapësirës
+- Sisteme të zgjuara ruajtje me sirtarë të thellë
+- Rafte të hapura për eksponim të enëve dekorative
+- Pantry i integruar për ushqime dhe pajisje
+
+### Materialet
+- Sipërfaqe pune prej guri artificial - të qëndrueshme dhe elegante
+- Fasada dollabesh në ngjyrë të bardhë mat me dritare xhami
+- Pllaka keramike për muret në ngjyrë neutrale
+- Dysheme laminuar rezistente ndaj ujit
+
+### Ndriçimi
+- Drita të varura moderne mbi ishull
+- Ndriçim LED nën dollabe për sipërfaqet e punës
+- Llamba tavani të integruara
+- Dritare të mëdha që lejojnë dritë natyrale
+
+### Aparatet
+- Aparat i integruar i fundit të lartë
+- Sobë me kapuç elegant
+- Frigorifer i integruar në dollabe
+- Enëlarëse moderne e heshtë
+
+## Impakti
+
+Kuzhina e re ka transformuar mënyrën se si familja përdor hapësirën:
+- 50% më shumë hapësirë ruajtje
+- Rrjedhje pune më efikase
+- Hapësirë sociale për mikpritje
+- Vlerë e shtuar ndaj shtëpisë
+
+Klienti thotë se tani gatimi është një kënaqësi në vend të një detyre!
+', 'yml', true, '[{"src":"/projects/kitchen/kitchen.JPG","alt":"Pamja e përgjithshme e kuzhinës"},{"src":"/projects/kitchen/kitchen2.JPG","alt":"Detaje të dizajnit"},{"src":"/projects/kitchen/kitchen3.JPG","alt":"Zonë gatimi"},{"src":"/projects/kitchen/kitchen-plan.JPG","alt":"Planimetria e kuzhinës"}]', '/projects/kitchen/kitchen.JPG', '{}', 'projects/kitchen-designs', '["Rezidencial","Kuzhinë","Rinovim","Funksionale"]', '#', 'CsmRYzxi4E1WnJH8MstjlIRvqlwa7qzrQWNiNaBJs3k'); -- CsmRYzxi4E1WnJH8MstjlIRvqlwa7qzrQWNiNaBJs3k
+INSERT INTO _content_projects VALUES ('projects/projects/living-rooms.yml', 'Dhomë Ndenjeje Elegante', '2024-06-15T00:00:00.000Z', 'Transformim i një dhome ndenjeje në një hapësirë sofistikuar për argëtim dhe relaksim familjar, me vëmendje të veçantë ndaj detajeve.', '## Koncepti i Dizajnit
+
+Dhoma e ndenjjes është hapësira ku familja kalon më shumë kohë së bashku. Qëllimi ishte të krijohej një ambient që është njëkohësisht elegant për të pritur mysafirë dhe komfort për përdorim të përditshëm.
+
+## Qasja Dizajnuese
+
+### Planifikimi i Hapësirës
+- Zonë qendrore me divan të madh dhe fotolj
+- Këndi leximi pranë dritares
+- Mur për televizor me ruajtje të integruar
+- Tavolinë qendrore multifunksionale
+
+### Paletë Ngjyrash
+- Bazë neutrale (gri, bezh, e bardhë)
+- Akcente në ngjyra të thella (blu navy, jeshile smaragd)
+- Tekstile të pasura për ngrohtësi
+- Arte muri për pikë fokusi
+
+### Mobilimi
+- Divan modular që përshtatet me nevoja të ndryshme
+- Fotolj të rehatshëm me jastek
+- Tavolina kafeje me ruajtje të fshehur
+- Bibliotekë e personalizuar nga muri në mur
+- Mobilje TV me sistem të integruar të kabllovës
+
+### Tekstilet dhe Aksesorët
+- Qilim i madh që përcakton zonën e uljes
+- Perdeve të rënda për privatësi dhe kontrolli drite
+- Jastëkë dekorativë në modele dhe tekstura të ndryshme
+- Mbulesa komode për sezone të ndryshme
+
+### Ndriçimi në Shtresa
+- **Ndriçim ambient**: Llamba tavani me dimmer
+- **Ndriçim detyrash**: Llamba leximi dhe dyshemeje
+- **Ndriçim dekorativ**: Llamba tavoline dhe gjirlanda LED
+- **Ndriçim natyror**: Optimizuar me perdeve transparente
+
+## Karakteristikat Speciale
+
+### Muri i Akcentit
+Krijova një mur aksenti me panele druri që shton ngrohtësi dhe teksturë. Ky element bëhet pikë fokusi e dhomës dhe krijon thellësi vizuale.
+
+### Sistemi i Ruajtjes
+Bibliotekat e personalizuara ofrojnë ruajtje të madhe duke mbetur elegante. Raftet e hapura eksponojnë libra dhe objekte dekorative, ndërsa dollapet e mbyllura fshihin çrregullsinë.
+
+### Teknologjia e Integruar
+- Sistem audio të fshehur
+- Ndriçim të zgjuar me kontroll nga telefoni
+- Priza USB të integruara në mobilje
+- Sistem TV të organizuar pa kablla të dukshme
+
+## Rezultati Final
+
+Dhoma e ndenjjes u shndërrua në një hapësirë e cila:
+- Mirëpret miqtë me elegancë
+- Ofron rehatsi maksimale për familjen
+- Përshtatet me aktivitete të ndryshme
+- Reflekton stilin personal të pronarëve
+
+Klientët janë të kënaqur veçanërisht me sa mirë funksionon hapësira për të dy - mbrëmje të qeta familjare dhe argëtime më formale.
+', 'yml', true, '[{"src":"/projects/living-room/living-room.JPG","alt":"Pamja e përgjithshme e dhomës së ndenjjes"},{"src":"/projects/living-room/living-room2.JPG","alt":"Zonë ulëse"},{"src":"/projects/living-room/living-room3.JPG","alt":"Detaje dekorative"},{"src":"/projects/living-room/living-room4.JPG","alt":"Sistemi i ruajtjes"},{"src":"/projects/living-room/living-room5.JPG","alt":"Këndvështrim alternative"}]', '/projects/living-room/living-room.JPG', '{}', 'projects/living-rooms', '["Rezidencial","Dhomë Ndenjeje","Elegante","Komode"]', '#', 'P_QZezmg7CRQtf3ANXLYEwYwlEsL51I2mqIW0UgHb8c'); -- P_QZezmg7CRQtf3ANXLYEwYwlEsL51I2mqIW0UgHb8c
 UPDATE _content_info SET ready = true WHERE id = 'checksum_projects'; -- meta
 CREATE TABLE IF NOT EXISTS _content_info (id TEXT PRIMARY KEY, "ready" BOOLEAN, "structureVersion" VARCHAR, "version" VARCHAR, "__hash__" TEXT UNIQUE); -- structure
 INSERT INTO _content_info VALUES ('checksum_blog', false, 'PMMhvgGFocAPWVLx3gMtIzP4fDKba6Sbn_0u9hWJAMk', 'v3.5.0--SlLSMU78apaRbw5uS5ZqJ8TFZCK7Lm6EB4geDxF8Xb4', 'udlLDU0whnYFhJAprQ5kL5PqOGkI_qeijw3w4fKYdwU'); -- meta
@@ -30,17 +383,16 @@ INSERT INTO _content_info VALUES ('checksum_pages', false, '3IjgIfEEf-jEHsY-RT_o
 DROP TABLE IF EXISTS _content_pages; -- structure
 CREATE TABLE IF NOT EXISTS _content_pages (id TEXT PRIMARY KEY, "title" VARCHAR, "body" TEXT, "description" VARCHAR, "extension" VARCHAR, "links" TEXT, "meta" TEXT, "navigation" TEXT DEFAULT true, "path" VARCHAR, "seo" TEXT DEFAULT '{}', "stem" VARCHAR, "__hash__" TEXT UNIQUE); -- structure
 INSERT INTO _content_pages VALUES ('pages/projects.yml', 'Dizajnimi i Hapësirave, Ndërtimi i Përvojave.', NULL, 'Kam punuar në një shumëllojshmëri projektesh, duke u fokusuar në krijimin e hapësirave intuitive ku dizajni i menduar takohet me zbatim të pastër. Këtu janë disa theksime që krenohem, duke treguar procesin tim nga koncepti deri në ekzekutim.', 'yml', '[{"label":"Le të bisedojmë","color":"neutral"},{"label":"Më dërgo email"}]', '{}', 'true', '/projects', '{"title":"Dizajnimi i Hapësirave, Ndërtimi i Përvojave.","description":"Kam punuar në një shumëllojshmëri projektesh, duke u fokusuar në krijimin e hapësirave intuitive ku dizajni i menduar takohet me zbatim të pastër. Këtu janë disa theksime që krenohem, duke treguar procesin tim nga koncepti deri në ekzekutim."}', 'projects', 'L3td_8VEkQn0NzlqniA3bntNda42wlD2Zl16lS1bcKw'); -- L3td_8VEkQn0NzlqniA3bntNda42wlD2Zl16lS1bcKw
-INSERT INTO _content_pages VALUES ('pages/blog.yml', 'Artikujt e Fundit', NULL, 'Disa nga mendimet e mia të fundit rreth dizajnit, arkitekturës dhe industrisë së dizajnit të brendshëm.', 'yml', NULL, '{}', 'true', '/blog', '{"title":"Artikujt e Fundit","description":"Disa nga mendimet e mia të fundit rreth dizajnit, arkitekturës dhe industrisë së dizajnit të brendshëm."}', 'blog', '3yHWZOjgz3LXOeI7eBFCdyPHUzoXnT31GTcVTwX0CTM'); -- 3yHWZOjgz3LXOeI7eBFCdyPHUzoXnT31GTcVTwX0CTM
 UPDATE _content_info SET ready = true WHERE id = 'checksum_pages'; -- meta
+INSERT INTO _content_pages VALUES ('pages/blog.yml', 'Artikujt e Fundit', NULL, 'Disa nga mendimet e mia të fundit rreth dizajnit, arkitekturës dhe industrisë së dizajnit të brendshëm.', 'yml', NULL, '{}', 'true', '/blog', '{"title":"Artikujt e Fundit","description":"Disa nga mendimet e mia të fundit rreth dizajnit, arkitekturës dhe industrisë së dizajnit të brendshëm."}', 'blog', '3yHWZOjgz3LXOeI7eBFCdyPHUzoXnT31GTcVTwX0CTM');
 CREATE TABLE IF NOT EXISTS _content_info (id TEXT PRIMARY KEY, "ready" BOOLEAN, "structureVersion" VARCHAR, "version" VARCHAR, "__hash__" TEXT UNIQUE); -- structure
 INSERT INTO _content_info VALUES ('checksum_speaking', false, 'mx3wcXExXsrpiL3ywmz6_l1aKNy9k5ZmsvbIyKUasJQ', 'v3.5.0--E_0B8gDE89MLirD4Ek5yB3dcJUlAvX06BQmaHVLcV_M', 'NSlqmmzJY8ANAU64Yog8k0ZrtqeNKp8iGLlsRmqAzM0'); -- meta
 DROP TABLE IF EXISTS _content_speaking; -- structure
 CREATE TABLE IF NOT EXISTS _content_speaking (id TEXT PRIMARY KEY, "title" VARCHAR, "body" TEXT, "description" VARCHAR, "events" TEXT, "extension" VARCHAR, "links" TEXT, "meta" TEXT, "navigation" TEXT DEFAULT true, "path" VARCHAR, "seo" TEXT DEFAULT '{}', "stem" VARCHAR, "__hash__" TEXT UNIQUE); -- structure
-INSERT INTO _content_speaking VALUES ('speaking/speaking.yml', 'Foljet & Punëtoritë', NULL, 'Eksploroni foljet dhe punëtoritë që kam dhënë rreth dizajnit të brendshëm, arkitekturës dhe krijimit të hapësirave më të mira.', '[{"category":"Konferencë","title":"Krijimi i Hapësirave Funksionale: Dizajni i Sistemeve për Hapësira Rezidenciale","date":"2024-10-26","location":"Konferenca e Arkitekturës, Prishtinë, Kosovë","url":"#"},{"category":"Konferencë","title":"Hapësira Intuitive: Zbatimi i Parimeve të Dizajnit në Projekte Moderne","date":"2024-06-15","location":"Forum i Dizajnit të Brendshëm, Online","url":"#"},{"category":"Konferencë","title":"Qasje Universale: Ndërtimi i Hapësirave Gjithëpërfshirëse","date":"2023-11-08","location":"Takimi i Dizajnerëve të Prishtinës, Prishtinë, Kosovë"},{"category":"Fjalim Live","title":"Mjeshtërimi i Dizajnit të Komponentëve në SketchUp & AutoCAD","date":"2024-08-20","location":"Takimi i Dizajnit & Arkitekturës Prishtinë, Prishtinë, Kosovë","url":"#"},{"category":"Fjalim Live","title":"Nga Skica në Realizim: Një Proces Praktik i Punës","date":"2024-03-05","location":"Punëtori e Brendshme @ Studio Arkitektura"},{"category":"Fjalim Live","title":"Fuqia e Hulumtimit të Klientit në Zhvillimin e Projektit","date":"2023-09-12","location":"Ligjëratë e Ftuar në Universitetin e Prishtinës, Prishtinë, Kosovë"},{"category":"Podcast","title":"Dizajnimi për Jetesë: Një Perspektivë e Dizajnit të Brendshëm","date":"2024-07-18","location":"Podcast Arkitektura & Dizajn (Mysafir)","url":"#"},{"category":"Podcast","title":"E Ardhmja e Dizajnit të Brendshëm & Mjetet e Vizualizimit","date":"2024-01-30","location":"Podcast Detajet e Dizajnit (Mysafir)","url":"#"},{"category":"Podcast","title":"Ndërtimi i Karrierës në Dizajn të Brendshëm & Arkitekturë","date":"2023-05-22","location":"Podcast TechForward Prishtinë","url":"#"}]', 'yml', '[{"label":"Më ftoni të flas","size":"md"}]', '{}', 'true', '/speaking', '{"title":"Foljet & Punëtoritë","description":"Eksploroni foljet dhe punëtoritë që kam dhënë rreth dizajnit të brendshëm, arkitekturës dhe krijimit të hapësirave më të mira."}', 'speaking', '0rCKckOKVmXi6t9BHQs7JQNl7cdZdPeRA5A_yRsXidw'); -- 0rCKckOKVmXi6t9BHQs7JQNl7cdZdPeRA5A_yRsXidw
 UPDATE _content_info SET ready = true WHERE id = 'checksum_speaking'; -- meta
 CREATE TABLE IF NOT EXISTS _content_info (id TEXT PRIMARY KEY, "ready" BOOLEAN, "structureVersion" VARCHAR, "version" VARCHAR, "__hash__" TEXT UNIQUE); -- structure
-INSERT INTO _content_info VALUES ('checksum_about', false, 'fNWjfi6QK17IkVo_GwVO6TE5eDF4m9P5PE52tFBRB8c', 'v3.5.0--V4v7N8J513HBIK0fJsfATKLVOqkafexyQKKinYFS1A0', 'ceebTsKub2o9Iy5jkdCsMFHE7k5tNNIfCjN0KDUZLzk'); -- meta
+INSERT INTO _content_info VALUES ('checksum_about', false, 'fNWjfi6QK17IkVo_GwVO6TE5eDF4m9P5PE52tFBRB8c', 'v3.5.0--6dk7TUIZ35xB92g5bA7GGWQj88Sjlswea9lKhyVGJGk', 'yC9qr3WfMtGLbQr3svcX6OpzJ7siOA6XYWvQHdkJpiM'); -- meta
 DROP TABLE IF EXISTS _content_about; -- structure
 CREATE TABLE IF NOT EXISTS _content_about (id TEXT PRIMARY KEY, "title" VARCHAR, "body" TEXT, "content" TEXT, "description" VARCHAR, "extension" VARCHAR, "images" TEXT, "meta" TEXT, "navigation" TEXT DEFAULT true, "path" VARCHAR, "seo" TEXT DEFAULT '{}', "stem" VARCHAR, "__hash__" TEXT UNIQUE); -- structure
-INSERT INTO _content_about VALUES ('about/about.yml', 'Rreth Meje', NULL, '"Përshëndetje, unë jam **Jehona Xhoxhaj**, e lindur më 22.06.2003 në Prizren. Jam shkolluar me vullnetin dhe dëshirën që një ditë të kem mundësinë që talentin dhe artin tim ta shfaq në shoqëri dhe kudo në botë.\n\nDua të dizajnoj hapësira ku krijohen kujtime. Dua të krijoj shtëpi ku rriten familjet, shkolla ku lindin miqësi dhe spitale ku njerëzit gjejnë shpresë. Dizajnimi është mënyra ime për të bashkuar njerëzit, për t''u dhënë atyre hapësira që i bëjnë të ndihen të sigurt, të dashur dhe të frymëzuar. Bëhet fjalë për krijimin e më shumë sesa thjesht strukturave, ka të bëjë me ndërtimin e lidhjeve, ëndrrave dhe të ardhmes.\n\n### Qasja Ime Profesionale\n\nSi dizajnere interieri, angazhimi im qëndron në krijimin e hapësirave funksionale, estetike dhe të përshtatura me nevojat specifike të përdoruesit. Qasja ime ndaj projektimit ndërthur kreativitetin me funksionalitetin, duke u fokusuar në optimizimin e çdo elementi të hapësirës – nga ndriçimi dhe ngjyrat, te përzgjedhja e materialeve dhe vendosja e mobiljeve.\n\n### Procesi Im i Punës\n\nNë procesin e projektimit të dhomave, i kushtoj rëndësi harmonisë midis formës dhe funksionit. Çdo dhomë duhet të tregojë një histori – qoftë një ambient familjar, profesional apo relaksues – duke reflektuar identitetin dhe stilin e klientit. Puna ime përfshin planifikimin e hapësirës, zgjedhjen e skemave kromatike, dhe propozimin e zgjidhjeve kreative për shfrytëzimin maksimal të çdo cepi.\n\n### Dizajni i Mobiljeve\n\nNë fushën e projektimit të mobiljeve, fokusi im është në dizajnin praktik, estetik dhe të qëndrueshëm. Kam aftësi në zhvillimin e skicave konceptuale dhe realizimin e tyre përmes softuerëve të dizajnit 3D, duke bashkëpunuar ngushtë me mjeshtër të prodhimit për të garantuar cilësi dhe funksionalitet në çdo produkt.\n\n### Planimetri dhe Vizualizime 2D\n\nNjë pjesë thelbësore e procesit tim të projektimit përfshin zhvillimin e planimetrive dhe pamjeve 2D, të cilat shërbejnë si bazë për paraqitjen e qartë dhe të saktë të ideve hapësinore dhe mobilimit. Përmes planimetrive 2D, arrij të prezantoj organizimin funksional të ambienteve, raportet midis objekteve dhe përmasat reale të hapësirës, duke e bërë projektin lehtësisht të kuptueshëm për klientët dhe ekipin e prodhimit.\n\n### Përtej Projekteve\n\nKur nuk po dizajnoj apo vizitoj kantiere, mund të më gjeni duke eksploruar kafenetë e Prizrenit, duke vizituar ekspozita arti, apo duke kontribuar në projekte lokale të revitalizimit urban.\n\nFaleminderit që më vizituat. Ndjehuni të lirë të shfletoni [projektet](/projects) e mia ose të [kontaktoni](/#contact) nëse dëshironi të bashkëpunojmë!\n"', 'Mësoni më shumë rreth rrugëtimit tim si Dizajnere e Brendshme me bazë në Prizren, filozofisë sime të dizajnit, dhe pasionit tim për krijimin e hapësirave që frymëzojnë dhe inspirojnë.', 'yml', '[{"src":"/about/designer-jehona.jpg","alt":"Jehona Xhoxhaj - Dizajnere e Brendshme"},{"src":"/projects/argjendaria/argjendaria.JPG","alt":"Projekt Argjendaria ANNA"}]', '{}', 'true', '/about', '{"title":"Rreth Meje","description":"Mësoni më shumë rreth rrugëtimit tim si Dizajnere e Brendshme me bazë në Prizren, filozofisë sime të dizajnit, dhe pasionit tim për krijimin e hapësirave që frymëzojnë dhe inspirojnë."}', 'about', '7fxEtyhwTZNZhIF1pNQLjXVUTrm5ikWrWcZ3Pqa9ULw');
+INSERT INTO _content_about VALUES ('about/about.yml', 'Rreth Meje', NULL, '"Përshëndetje, unë jam **Jehona Xhoxhaj**, e lindur më 22.06.2003 në Prizren. Jam shkolluar me vullnetin dhe dëshirën që një ditë të kem mundësinë që talentin dhe artin tim ta shfaq në shoqëri dhe kudo në botë.\n\nDua të dizajnoj hapësira ku krijohen kujtime. Dua të krijoj shtëpi ku rriten familjet, shkolla ku lindin miqësi dhe spitale ku njerëzit gjejnë shpresë. Dizajnimi është mënyra ime për të bashkuar njerëzit, për t''u dhënë atyre hapësira që i bëjnë të ndihen të sigurt, të dashur dhe të frymëzuar. Bëhet fjalë për krijimin e më shumë sesa thjesht strukturave, ka të bëjë me ndërtimin e lidhjeve, ëndrrave dhe të ardhmes.\n\n### Qasja Ime Profesionale\n\nSi dizajnere interieri, angazhimi im qëndron në krijimin e hapësirave funksionale, estetike dhe të përshtatura me nevojat specifike të përdoruesit. Qasja ime ndaj projektimit ndërthur kreativitetin me funksionalitetin, duke u fokusuar në optimizimin e çdo elementi të hapësirës – nga ndriçimi dhe ngjyrat, te përzgjedhja e materialeve dhe vendosja e mobiljeve.\n\n### Procesi Im i Punës\n\nNë procesin e projektimit të dhomave, i kushtoj rëndësi harmonisë midis formës dhe funksionit. Çdo dhomë duhet të tregojë një histori – qoftë një ambient familjar, profesional apo relaksues – duke reflektuar identitetin dhe stilin e klientit. Puna ime përfshin planifikimin e hapësirës, zgjedhjen e skemave kromatike, dhe propozimin e zgjidhjeve kreative për shfrytëzimin maksimal të çdo cepi.\n\n### Dizajni i Mobiljeve\n\nNë fushën e projektimit të mobiljeve, fokusi im është në dizajnin praktik, estetik dhe të qëndrueshëm. Kam aftësi në zhvillimin e skicave konceptuale dhe realizimin e tyre përmes softuerëve të dizajnit 3D, duke bashkëpunuar ngushtë me mjeshtër të prodhimit për të garantuar cilësi dhe funksionalitet në çdo produkt.\n\n### Planimetri dhe Vizualizime 2D\n\nNjë pjesë thelbësore e procesit tim të projektimit përfshin zhvillimin e planimetrive dhe pamjeve 2D, të cilat shërbejnë si bazë për paraqitjen e qartë dhe të saktë të ideve hapësinore dhe mobilimit. Përmes planimetrive 2D, arrij të prezantoj organizimin funksional të ambienteve, raportet midis objekteve dhe përmasat reale të hapësirës, duke e bërë projektin lehtësisht të kuptueshëm për klientët dhe ekipin e prodhimit.\n\n### Përtej Projekteve\n\nKur nuk po dizajnoj apo vizitoj kantiere, mund të më gjeni duke eksploruar kafenetë e Prizrenit, duke vizituar ekspozita arti, apo duke kontribuar në projekte lokale të revitalizimit urban.\n\nFaleminderit që më vizituat. Ndjehuni të lirë të shfletoni [projektet](/projects) e mia ose të [kontaktoni](/#contact) nëse dëshironi të bashkëpunojmë!\n"', 'Mësoni më shumë rreth rrugëtimit tim si Dizajnere e Brendshme me bazë në Prizren, filozofisë sime të dizajnit, dhe pasionit tim për krijimin e hapësirave që frymëzojnë dhe inspirojnë.', 'yml', '[{"src":"/about/designer-jehona.jpg","alt":"Jehona Xhoxhaj - Dizajnere e Brendshme"},{"src":"/projects/argjendaria/argjendaria.JPG","alt":"Projekt Argjendaria ANNA"}]', '{}', 'true', '/about', '{"title":"Rreth Meje","description":"Mësoni më shumë rreth rrugëtimit tim si Dizajnere e Brendshme me bazë në Prizren, filozofisë sime të dizajnit, dhe pasionit tim për krijimin e hapësirave që frymëzojnë dhe inspirojnë."}', 'about', '7fxEtyhwTZNZhIF1pNQLjXVUTrm5ikWrWcZ3Pqa9ULw'); -- 7fxEtyhwTZNZhIF1pNQLjXVUTrm5ikWrWcZ3Pqa9ULw
 UPDATE _content_info SET ready = true WHERE id = 'checksum_about'; -- meta

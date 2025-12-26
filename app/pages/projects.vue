@@ -20,12 +20,23 @@ const { global } = useAppConfig()
 const isGalleryOpen = ref(false)
 const currentGallery = ref([])
 const currentImageIndex = ref(0)
-const currentProjectIndex = ref(0)
 
-const openGallery = (project: any, imageIndex: number = 0) => {
+// Track current image index for each project card
+const projectImageIndices = ref<Record<number, number>>({})
+
+const getCurrentProjectImage = (project: any, projectIndex: number) => {
+  const currentIndex = projectImageIndices.value[projectIndex] || 0
   if (project.gallery && project.gallery.length > 0) {
+    return project.gallery[currentIndex]?.src || project.image
+  }
+  return project.image
+}
+
+const openGallery = (project: any, projectIndex: number) => {
+  if (project.gallery && project.gallery.length > 0) {
+    const currentIndex = projectImageIndices.value[projectIndex] || 0
     currentGallery.value = project.gallery
-    currentImageIndex.value = imageIndex
+    currentImageIndex.value = currentIndex
     isGalleryOpen.value = true
   }
 }
@@ -56,24 +67,24 @@ const goToImage = (index: number) => {
   currentImageIndex.value = index
 }
 
-// Navigate within project card gallery
+// Navigate within project card gallery - updates the card image
 const nextCardImage = (projectIndex: number) => {
   const project = projects.value[projectIndex]
   if (project.gallery && project.gallery.length > 1) {
-    const nextIndex = (currentProjectIndex.value + 1) % project.gallery.length
-    currentProjectIndex.value = nextIndex
-    openGallery(project, nextIndex)
+    const currentIndex = projectImageIndices.value[projectIndex] || 0
+    const nextIndex = (currentIndex + 1) % project.gallery.length
+    projectImageIndices.value[projectIndex] = nextIndex
   }
 }
 
 const previousCardImage = (projectIndex: number) => {
   const project = projects.value[projectIndex]
   if (project.gallery && project.gallery.length > 1) {
-    const prevIndex = currentProjectIndex.value === 0 
+    const currentIndex = projectImageIndices.value[projectIndex] || 0
+    const prevIndex = currentIndex === 0 
       ? project.gallery.length - 1 
-      : currentProjectIndex.value - 1
-    currentProjectIndex.value = prevIndex
-    openGallery(project, prevIndex)
+      : currentIndex - 1
+    projectImageIndices.value[projectIndex] = prevIndex
   }
 }
 
@@ -92,6 +103,12 @@ const handleKeydown = (e: KeyboardEvent) => {
 
 onMounted(() => {
   window.addEventListener('keydown', handleKeydown)
+  // Initialize all project indices to 0
+  if (projects.value) {
+    projects.value.forEach((_, index) => {
+      projectImageIndices.value[index] = 0
+    })
+  }
 })
 
 onUnmounted(() => {
@@ -165,70 +182,67 @@ useSeoMeta({
               {{ new Date(project.date).getFullYear() }}
             </span>
           </template>
-          <template #footer>
-            <div class="flex items-center gap-4">
-              <ULink
-                :to="project.url"
-                class="text-sm text-primary flex items-center"
-              >
-                View Project
-                <UIcon
-                  name="i-lucide-arrow-right"
-                  class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
-                />
-              </ULink>
-              <UButton
-                v-if="project.gallery && project.gallery.length > 0"
-                size="xs"
-                color="gray"
-                variant="ghost"
-                icon="i-lucide-images"
-                @click.prevent="openGallery(project, 0)"
-              >
-                Galeria ({{ project.gallery.length }})
-              </UButton>
-            </div>
-          </template>
           <div 
-            class="relative cursor-pointer group/image"
-            @click.prevent="openGallery(project, 0)"
+            class="relative cursor-pointer group/image overflow-hidden rounded-lg"
+            @click.prevent="openGallery(project, index)"
           >
-            <img
-              :src="project.image"
-              :alt="project.title"
-              class="object-cover w-full h-48 rounded-lg transition-transform group-hover/image:scale-105"
-            >
+            <!-- Image with transition -->
+            <Transition name="image-slide" mode="out-in">
+              <img
+                :key="getCurrentProjectImage(project, index)"
+                :src="getCurrentProjectImage(project, index)"
+                :alt="project.title"
+                class="object-cover w-full h-48 transition-transform group-hover/image:scale-105"
+              >
+            </Transition>
+            
+            <!-- Dark overlay on hover -->
+            <div 
+              v-if="project.gallery && project.gallery.length > 1"
+              class="absolute inset-0 bg-black/0 group-hover/image:bg-black/20 transition-all duration-300 pointer-events-none"
+            />
             
             <!-- Navigation Arrows on Project Card -->
             <div 
               v-if="project.gallery && project.gallery.length > 1"
-              class="absolute inset-0 flex items-center justify-between px-4 opacity-0 group-hover/image:opacity-100 transition-opacity duration-300"
+              class="absolute inset-y-0 left-0 right-0 flex items-center justify-between px-3 opacity-0 group-hover/image:opacity-100 transition-opacity duration-300 z-30"
             >
               <button
-                class="p-2 rounded-full bg-white/95 dark:bg-gray-900/95 hover:bg-white dark:hover:bg-gray-800 transition-colors shadow-xl backdrop-blur-sm z-10"
+                class="flex items-center justify-center p-2.5 rounded-full bg-white/95 dark:bg-gray-900/95 hover:bg-white dark:hover:bg-gray-800 transition-all shadow-2xl backdrop-blur-sm hover:scale-110"
                 @click.stop.prevent="previousCardImage(index)"
               >
                 <UIcon name="i-lucide-chevron-left" class="w-5 h-5" />
               </button>
               <button
-                class="p-2 rounded-full bg-white/95 dark:bg-gray-900/95 hover:bg-white dark:hover:bg-gray-800 transition-colors shadow-xl backdrop-blur-sm z-10"
+                class="flex items-center justify-center p-2.5 rounded-full bg-white/95 dark:bg-gray-900/95 hover:bg-white dark:hover:bg-gray-800 transition-all shadow-2xl backdrop-blur-sm hover:scale-110"
                 @click.stop.prevent="nextCardImage(index)"
               >
                 <UIcon name="i-lucide-chevron-right" class="w-5 h-5" />
               </button>
             </div>
             
+            <!-- Center text overlay -->
             <div 
               v-if="project.gallery && project.gallery.length > 1"
-              class="absolute inset-0 bg-black/0 group-hover/image:bg-black/20 transition-all duration-300 rounded-lg flex items-center justify-center"
+              class="absolute inset-0 flex items-center justify-center pointer-events-none z-20"
             >
               <div class="opacity-0 group-hover/image:opacity-100 transition-opacity bg-white/90 dark:bg-gray-900/90 px-4 py-2 rounded-lg backdrop-blur-sm">
                 <span class="text-sm font-medium">Shiko Galerinë</span>
               </div>
             </div>
+            
+            <!-- Image counter on card -->
             <div 
               v-if="project.gallery && project.gallery.length > 1"
-              class="absolute bottom-3 right-3 bg-black/70 backdrop-blur-sm text-white px-3 py-1 rounded-full text-xs flex items-center gap-2 shadow-lg z-20"
+              class="absolute top-3 left-3 bg-black/70 backdrop-blur-sm text-white px-2 py-1 rounded-full text-xs font-medium shadow-lg z-40 pointer-events-none"
+            >
+              {{ (projectImageIndices[index] || 0) + 1 }} / {{ project.gallery.length }}
+            </div>
+            
+            <!-- Gallery badge -->
+            <div 
+              v-if="project.gallery && project.gallery.length > 1"
+              class="absolute bottom-3 right-3 bg-black/70 backdrop-blur-sm text-white px-3 py-1 rounded-full text-xs flex items-center gap-2 shadow-lg z-40 pointer-events-none"
             >
               <UIcon name="i-lucide-images" class="w-3 h-3" />
               <span>{{ project.gallery.length }} foto</span>
