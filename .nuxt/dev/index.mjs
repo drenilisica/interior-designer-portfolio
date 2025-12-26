@@ -1141,7 +1141,9 @@ const _inlineRuntimeConfig = {
     "baseURL": "/_ipx",
     "alias": {},
     "fs": {
-      "dir": []
+      "dir": [
+        "/Users/drenilisica/Development/interior-designer-portfolio/public"
+      ]
     },
     "http": {
       "domains": []
@@ -3235,12 +3237,12 @@ async function runTask(name, {
 }
 
 const checksums = {
-  "index": "v3.5.0--E5ZQoYE1qtuJOfu3cAozDdQepRWX3AEOJSu9mx2CV7s",
-  "projects": "v3.5.0--YxhHcPbUyJfmipVZbbQN1YszsyJaGDSPsRp-I4Isjns",
-  "blog": "v3.5.0--6FM-MA2fMVS7v00dkHVZXb1h0GpndaNaIl6tc91V1B8",
-  "pages": "v3.5.0--ScDHY58ODbNc66ajX6enKzDB1HMZwMFAA7WBO2KWyoI",
-  "speaking": "v3.5.0--WpS-Q_0Pxqtdvdlr4SZj0zYiTZ9d2FVBp1G2lpcSyA8",
-  "about": "v3.5.0--xW3gNa5gGO3WvEPmrUUhqJpzXvHKyyUoJDR8QQveIUU"
+  "index": "v3.5.0--5nnjNfsfDwNCQcvFaaIAD6jLIP-Yj__eK99K8KWUAt8",
+  "projects": "v3.5.0--Sg-qpIqM7rXHXscI67-Zcm43oBHH8eCBvw3HLAwSIB0",
+  "blog": "v3.5.0--SlLSMU78apaRbw5uS5ZqJ8TFZCK7Lm6EB4geDxF8Xb4",
+  "pages": "v3.5.0--vrUC9OzUp_sJuwfIiboxrniWYGlnZEH7zlRaD8adZC0",
+  "speaking": "v3.5.0--E_0B8gDE89MLirD4Ek5yB3dcJUlAvX06BQmaHVLcV_M",
+  "about": "v3.5.0--V4v7N8J513HBIK0fJsfATKLVOqkafexyQKKinYFS1A0"
 };
 const checksumsStructure = {
   "index": "OlB8K-FYQeiOmH_XYZUPmjxYW6W3oRCq3ruT1Br3SAE",

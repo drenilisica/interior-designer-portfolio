@@ -213,8 +213,6 @@ interface _GlobalComponents {
   'Icon': typeof import("../../node_modules/@nuxt/icon/dist/runtime/components/index").default
   'ColorScheme': typeof import("../../node_modules/@nuxtjs/color-mode/dist/runtime/component.vue3.vue").default
   'ContentRenderer': typeof import("../../node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue").default
-  'OgImage': typeof import("../../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImage").default
-  'OgImageScreenshot': typeof import("../../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImageScreenshot").default
   'Motion': typeof import("motion-v").Motion
   'AnimatePresence': typeof import("motion-v").AnimatePresence
   'LayoutGroup': typeof import("motion-v").LayoutGroup
@@ -436,8 +434,6 @@ interface _GlobalComponents {
   'LazyIcon': LazyComponent<typeof import("../../node_modules/@nuxt/icon/dist/runtime/components/index").default>
   'LazyColorScheme': LazyComponent<typeof import("../../node_modules/@nuxtjs/color-mode/dist/runtime/component.vue3.vue").default>
   'LazyContentRenderer': LazyComponent<typeof import("../../node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue").default>
-  'LazyOgImage': LazyComponent<typeof import("../../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImage").default>
-  'LazyOgImageScreenshot': LazyComponent<typeof import("../../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImageScreenshot").default>
   'LazyMotion': LazyComponent<typeof import("motion-v").Motion>
   'LazyAnimatePresence': LazyComponent<typeof import("motion-v").AnimatePresence>
   'LazyLayoutGroup': LazyComponent<typeof import("motion-v").LayoutGroup>

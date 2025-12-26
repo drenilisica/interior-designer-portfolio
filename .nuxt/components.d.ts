@@ -213,8 +213,6 @@ export const NuxtPicture: typeof import("../node_modules/@nuxt/image/dist/runtim
 export const Icon: typeof import("../node_modules/@nuxt/icon/dist/runtime/components/index").default
 export const ColorScheme: typeof import("../node_modules/@nuxtjs/color-mode/dist/runtime/component.vue3.vue").default
 export const ContentRenderer: typeof import("../node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue").default
-export const OgImage: typeof import("../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImage").default
-export const OgImageScreenshot: typeof import("../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImageScreenshot").default
 export const Motion: typeof import("motion-v").Motion
 export const AnimatePresence: typeof import("motion-v").AnimatePresence
 export const LayoutGroup: typeof import("motion-v").LayoutGroup
@@ -436,8 +434,6 @@ export const LazyNuxtPicture: LazyComponent<typeof import("../node_modules/@nuxt
 export const LazyIcon: LazyComponent<typeof import("../node_modules/@nuxt/icon/dist/runtime/components/index").default>
 export const LazyColorScheme: LazyComponent<typeof import("../node_modules/@nuxtjs/color-mode/dist/runtime/component.vue3.vue").default>
 export const LazyContentRenderer: LazyComponent<typeof import("../node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue").default>
-export const LazyOgImage: LazyComponent<typeof import("../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImage").default>
-export const LazyOgImageScreenshot: LazyComponent<typeof import("../node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImageScreenshot").default>
 export const LazyMotion: LazyComponent<typeof import("motion-v").Motion>
 export const LazyAnimatePresence: LazyComponent<typeof import("motion-v").AnimatePresence>
 export const LazyLayoutGroup: LazyComponent<typeof import("motion-v").LayoutGroup>
