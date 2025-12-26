@@ -9,24 +9,24 @@ hero:
       to: "/projects"
       color: "neutral"
   images:
-    - src: /hero/random-1.avif
-      alt: Projekt 1
-    - src: /hero/random-2.avif
-      alt: Projekt 2
-    - src: /hero/random-3.avif
-      alt: Projekt 3
-    - src: /hero/random-4.avif
-      alt: Projekt 4
-    - src: /hero/random-5.avif
-      alt: Projekt 5
-    - src: /hero/random-6.avif
-      alt: Projekt 6
-    - src: /hero/random-7.avif
-      alt: Projekt 7
-    - src: /hero/random-8.avif
-      alt: Projekt 8
-    - src: /hero/random-9.avif
-      alt: Projekt 9
+    - src: /projects/argjendaria/argjendaria.JPG
+      alt: Projekt ANNA Argjendaria
+    - src: /projects/bedroom/bedroom.JPG
+      alt: Dhomë Gjumi Moderne
+    - src: /projects/kitchen/kitchen.JPG
+      alt: Kuzhinë Bashkëkohore
+    - src: /projects/living-room/living-room.JPG
+      alt: Dhomë Ndenjeje
+    - src: /projects/children-room/children-room.JPG
+      alt: Dhomë Fëmijësh
+    - src: /projects/wardrobe/wardrobe2.JPG
+      alt: Mobilje të Personalizuara
+    - src: /projects/bedroom/bedroom2.JPG
+      alt: Dhomë Gjumi - Detaje
+    - src: /projects/kitchen/kitchen2.JPG
+      alt: Kuzhinë - Detaje
+    - src: /projects/living-room/living-room2.JPG
+      alt: Dhomë Ndenjeje - Detaje
 about:
   title: "Rreth Meje"
   description: |

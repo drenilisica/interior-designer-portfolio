@@ -33,11 +33,10 @@ defineProps<{
           delay: 0.1
         }"
       >
-        <UColorModeAvatar
-          class="size-18 ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
-          :light="global.picture?.light!"
-          :dark="global.picture?.dark!"
+        <img
+          :src="global.picture?.light!"
           :alt="global.picture?.alt!"
+          class="w-32 h-32 md:w-36 md:h-36 rounded-full object-cover ring ring-default ring-offset-3 ring-offset-(--ui-bg) shadow-lg"
         />
       </Motion>
     </template>
@@ -106,7 +105,7 @@ defineProps<{
           class="flex items-center gap-2"
         >
           <UButton v-bind="page.hero.links[0]" />
-          <UButton
+          <!-- <UButton
             :color="global.available ? 'success' : 'error'"
             variant="ghost"
             class="gap-2"
@@ -125,7 +124,7 @@ defineProps<{
                 />
               </span>
             </template>
-          </UButton>
+          </UButton> -->
         </div>
       </Motion>
 
