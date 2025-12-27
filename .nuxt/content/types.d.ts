@@ -80,11 +80,8 @@ declare module '@nuxt/content' {
    * and run json-schema-to-typescript to regenerate this file.
    */
   
-  interface ProjectsCollectionItem extends DataCollectionItemBase {
-    title: string;
-    description: string;
+  interface ProjectsCollectionItem extends PageCollectionItemBase {
     image: string;
-    url: string;
     tags: string[];
     date: string;
     gallery?: {
@@ -92,7 +89,6 @@ declare module '@nuxt/content' {
     alt: string;
     }[];
     featured?: boolean;
-    details?: string;
   }
   
    /* eslint-disable */
@@ -182,6 +178,7 @@ declare module '@nuxt/content' {
 
   interface PageCollections {
     index: IndexCollectionItem
+    projects: ProjectsCollectionItem
     blog: BlogCollectionItem
     pages: PagesCollectionItem
     speaking: SpeakingCollectionItem

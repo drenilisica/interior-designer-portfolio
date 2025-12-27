@@ -1,14 +1,14 @@
 export const checksums = {
-  "index": "v3.5.0--5nnjNfsfDwNCQcvFaaIAD6jLIP-Yj__eK99K8KWUAt8",
-  "projects": "v3.5.0--z8fBGJJRi26II3Xu_28ksbhxbCZrxZxfckIs5EmSuC0",
+  "index": "v3.5.0--e3w1MhK6drgElAsvfWTiEDSZls56FNdk8g6AZpVxXwk",
+  "projects": "v3.5.0--LAz8vbNe1Bgs24khehuS8QXwfa8XidVQnYzdCq6mwl0",
   "blog": "v3.5.0--SlLSMU78apaRbw5uS5ZqJ8TFZCK7Lm6EB4geDxF8Xb4",
   "pages": "v3.5.0--vrUC9OzUp_sJuwfIiboxrniWYGlnZEH7zlRaD8adZC0",
-  "speaking": "v3.5.0--E_0B8gDE89MLirD4Ek5yB3dcJUlAvX06BQmaHVLcV_M",
-  "about": "v3.5.0--6dk7TUIZ35xB92g5bA7GGWQj88Sjlswea9lKhyVGJGk"
+  "speaking": "v3.5.0--mx3wcXExXsrpiL3ywmz6_l1aKNy9k5ZmsvbIyKUasJQ",
+  "about": "v3.5.0--NDZTjNSSR0UpHE2lOQdiLzMf-tpQzXvr4TnjLX-tAl4"
 }
 export const checksumsStructure = {
   "index": "OlB8K-FYQeiOmH_XYZUPmjxYW6W3oRCq3ruT1Br3SAE",
-  "projects": "W3lYJVVViporRMAhyQrb7sEH7yFPGsDbvL8PexCbHb8",
+  "projects": "_jGg9QdcBGRmD2dMkbPLVfDFdmrAfSojNRqSHIw4AIY",
   "blog": "PMMhvgGFocAPWVLx3gMtIzP4fDKba6Sbn_0u9hWJAMk",
   "pages": "3IjgIfEEf-jEHsY-RT_ootRkgk4JVF1_40-7S552Cfs",
   "speaking": "mx3wcXExXsrpiL3ywmz6_l1aKNy9k5ZmsvbIyKUasJQ",
@@ -48,21 +48,23 @@ export default {
     }
   },
   "projects": {
-    "type": "data",
+    "type": "page",
     "fields": {
       "id": "string",
       "title": "string",
+      "body": "json",
       "date": "date",
       "description": "string",
-      "details": "string",
       "extension": "string",
       "featured": "boolean",
       "gallery": "json",
       "image": "string",
       "meta": "json",
+      "navigation": "json",
+      "path": "string",
+      "seo": "json",
       "stem": "string",
-      "tags": "json",
-      "url": "string"
+      "tags": "json"
     }
   },
   "blog": {

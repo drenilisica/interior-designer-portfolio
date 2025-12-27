@@ -1109,7 +1109,7 @@ const _inlineRuntimeConfig = {
       "height": 600,
       "cacheMaxAgeSeconds": 259200
     },
-    "debug": true,
+    "debug": false,
     "baseCacheKey": "/cache/nuxt-og-image/5.1.13",
     "fonts": [
       {
@@ -2341,7 +2341,7 @@ const logger = createConsola({
   }
 });
 
-const componentNames = [{"hash":"SOHaoKfoo4fUkREsCFGw8ewxkl4-XkkHkug2VwYRtFM","pascalName":"BrandedLogo","kebabName":"branded-logo","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/BrandedLogo.vue","category":"community"},{"hash":"tFoYPh0fXaZR3uXybAqFEOGnQuQsvz-E-Yq-CtrFlIY","pascalName":"Frame","kebabName":"frame","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/Frame.vue","category":"community"},{"hash":"NPQTTXYQ8toXx5OaJ1VlRUUcxy1SNOxg-FoM7C08ZPM","pascalName":"Nuxt","kebabName":"nuxt","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/Nuxt.vue","category":"community"},{"hash":"VAHSTZlVcPHzkozocV1iTnwc4-YttdoOkHsYfoSgDZ4","pascalName":"NuxtSeo","kebabName":"nuxt-seo","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/NuxtSeo.vue","category":"community"},{"hash":"8CNn4yU043gQFqO-sZNDPz9GKED-h7ahXJ-61c9ThHM","pascalName":"Pergel","kebabName":"pergel","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/Pergel.vue","category":"community"},{"hash":"b-Juo-FXQepo6SOCnA478MTAqbXNZuve6-MzHgTKA7s","pascalName":"SimpleBlog","kebabName":"simple-blog","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/SimpleBlog.vue","category":"community"},{"hash":"vRUm5ru-64PEHIGsBby6-vCgLBg7iUJfvFKL6VuCXtI","pascalName":"UnJs","kebabName":"un-js","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/UnJs.vue","category":"community"},{"hash":"hq07GBU-Yd16ICfETt8SfSxfaYj3qBmDAiQkTcv89nw","pascalName":"Wave","kebabName":"wave","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/Wave.vue","category":"community"},{"hash":"zSwOodBXcjwS1qvFqGBJqitTEEnrvVfwQYkTeIxNpws","pascalName":"WithEmoji","kebabName":"with-emoji","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/WithEmoji.vue","category":"community"},{"hash":"njH1LfLeLtVueHOae-tZt-swReEVOPXDLsV8PnrbkME","pascalName":"OgImage","kebabName":"og-image","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImage.js","category":"app"},{"hash":"NzCotdygpoQ3qU3xklHxt0cgQRgGOF6UB9WxxAvQz4U","pascalName":"OgImageScreenshot","kebabName":"og-image-screenshot","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/OgImage/OgImageScreenshot.js","category":"app"}];
+const componentNames = [{"hash":"SOHaoKfoo4fUkREsCFGw8ewxkl4-XkkHkug2VwYRtFM","pascalName":"BrandedLogo","kebabName":"branded-logo","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/BrandedLogo.vue","category":"community"},{"hash":"tFoYPh0fXaZR3uXybAqFEOGnQuQsvz-E-Yq-CtrFlIY","pascalName":"Frame","kebabName":"frame","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/Frame.vue","category":"community"},{"hash":"NPQTTXYQ8toXx5OaJ1VlRUUcxy1SNOxg-FoM7C08ZPM","pascalName":"Nuxt","kebabName":"nuxt","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/Nuxt.vue","category":"community"},{"hash":"VAHSTZlVcPHzkozocV1iTnwc4-YttdoOkHsYfoSgDZ4","pascalName":"NuxtSeo","kebabName":"nuxt-seo","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/NuxtSeo.vue","category":"community"},{"hash":"8CNn4yU043gQFqO-sZNDPz9GKED-h7ahXJ-61c9ThHM","pascalName":"Pergel","kebabName":"pergel","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/Pergel.vue","category":"community"},{"hash":"b-Juo-FXQepo6SOCnA478MTAqbXNZuve6-MzHgTKA7s","pascalName":"SimpleBlog","kebabName":"simple-blog","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/SimpleBlog.vue","category":"community"},{"hash":"vRUm5ru-64PEHIGsBby6-vCgLBg7iUJfvFKL6VuCXtI","pascalName":"UnJs","kebabName":"un-js","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/UnJs.vue","category":"community"},{"hash":"hq07GBU-Yd16ICfETt8SfSxfaYj3qBmDAiQkTcv89nw","pascalName":"Wave","kebabName":"wave","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/Wave.vue","category":"community"},{"hash":"zSwOodBXcjwS1qvFqGBJqitTEEnrvVfwQYkTeIxNpws","pascalName":"WithEmoji","kebabName":"with-emoji","path":"/Users/drenilisica/Development/interior-designer-portfolio/node_modules/nuxt-og-image/dist/runtime/app/components/Templates/Community/WithEmoji.vue","category":"community"}];
 
 function normaliseOptions(_options) {
   const options = { ..._options };
@@ -2744,22 +2744,7 @@ _hF2JibbsUEyMw7DDXfNU7_0FUIRBjy1nTKUpyggHkUE,
 _7xKvK0OUQMPvAx1ZKEntPy0o0mXPnZMlAL1M4v2l20E
 ];
 
-const assets$1 = {
-  "/index.mjs": {
-    "type": "text/javascript; charset=utf-8",
-    "etag": "\"5c174-6X04Up6BFFyzvFYfaMmpr7bZfFY\"",
-    "mtime": "2025-12-26T22:44:21.799Z",
-    "size": 377204,
-    "path": "index.mjs"
-  },
-  "/index.mjs.map": {
-    "type": "application/json",
-    "etag": "\"18acc7-ai/X5kb4ULMtEDGAhIfbYGrMvic\"",
-    "mtime": "2025-12-26T22:44:21.800Z",
-    "size": 1617095,
-    "path": "index.mjs.map"
-  }
-};
+const assets$1 = {};
 
 function readAsset (id) {
   const serverDir = dirname$1(fileURLToPath(globalThis._importMeta_.url));
@@ -3252,16 +3237,16 @@ async function runTask(name, {
 }
 
 const checksums = {
-  "index": "v3.5.0--5nnjNfsfDwNCQcvFaaIAD6jLIP-Yj__eK99K8KWUAt8",
-  "projects": "v3.5.0--z8fBGJJRi26II3Xu_28ksbhxbCZrxZxfckIs5EmSuC0",
+  "index": "v3.5.0--e3w1MhK6drgElAsvfWTiEDSZls56FNdk8g6AZpVxXwk",
+  "projects": "v3.5.0--LAz8vbNe1Bgs24khehuS8QXwfa8XidVQnYzdCq6mwl0",
   "blog": "v3.5.0--SlLSMU78apaRbw5uS5ZqJ8TFZCK7Lm6EB4geDxF8Xb4",
   "pages": "v3.5.0--vrUC9OzUp_sJuwfIiboxrniWYGlnZEH7zlRaD8adZC0",
-  "speaking": "v3.5.0--E_0B8gDE89MLirD4Ek5yB3dcJUlAvX06BQmaHVLcV_M",
-  "about": "v3.5.0--6dk7TUIZ35xB92g5bA7GGWQj88Sjlswea9lKhyVGJGk"
+  "speaking": "v3.5.0--mx3wcXExXsrpiL3ywmz6_l1aKNy9k5ZmsvbIyKUasJQ",
+  "about": "v3.5.0--NDZTjNSSR0UpHE2lOQdiLzMf-tpQzXvr4TnjLX-tAl4"
 };
 const checksumsStructure = {
   "index": "OlB8K-FYQeiOmH_XYZUPmjxYW6W3oRCq3ruT1Br3SAE",
-  "projects": "W3lYJVVViporRMAhyQrb7sEH7yFPGsDbvL8PexCbHb8",
+  "projects": "_jGg9QdcBGRmD2dMkbPLVfDFdmrAfSojNRqSHIw4AIY",
   "blog": "PMMhvgGFocAPWVLx3gMtIzP4fDKba6Sbn_0u9hWJAMk",
   "pages": "3IjgIfEEf-jEHsY-RT_ootRkgk4JVF1_40-7S552Cfs",
   "speaking": "mx3wcXExXsrpiL3ywmz6_l1aKNy9k5ZmsvbIyKUasJQ",
@@ -3299,21 +3284,23 @@ const contentManifest = {
     }
   },
   "projects": {
-    "type": "data",
+    "type": "page",
     "fields": {
       "id": "string",
       "title": "string",
+      "body": "json",
       "date": "date",
       "description": "string",
-      "details": "string",
       "extension": "string",
       "featured": "boolean",
       "gallery": "json",
       "image": "string",
       "meta": "json",
+      "navigation": "json",
+      "path": "string",
+      "seo": "json",
       "stem": "string",
-      "tags": "json",
-      "url": "string"
+      "tags": "json"
     }
   },
   "blog": {

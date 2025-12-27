@@ -14,6 +14,11 @@ const { data: projects } = await useAsyncData('projects', () => {
   return queryCollection('projects').all()
 })
 
+// Debug: log projects to see what we're getting
+if (projects.value) {
+  console.log('Projects loaded:', projects.value.map(p => ({ title: p.title, path: p.path })))
+}
+
 const { global } = useAppConfig()
 
 // Generate slug from project title
@@ -176,6 +181,7 @@ useSeoMeta({
         <UPageCard
           :title="project.title"
           :description="project.description"
+          :to="project.path"
           orientation="horizontal"
           variant="naked"
           :reverse="index % 2 === 1"
@@ -188,16 +194,6 @@ useSeoMeta({
             <span class="text-sm text-muted">
               {{ new Date(project.date).getFullYear() }}
             </span>
-          </template>
-          <template #footer>
-            <UButton
-              :to="`/projects/${getProjectSlug(project.title)}`"
-              size="sm"
-              color="primary"
-              variant="subtle"
-            >
-              Shiko Projektin
-            </UButton>
           </template>
           <div 
             class="relative cursor-pointer group/image overflow-hidden rounded-lg"
@@ -240,7 +236,6 @@ useSeoMeta({
             
             <!-- Center text overlay -->
             <div 
-              v-if="project.gallery && project.gallery.length > 1"
               class="absolute inset-0 flex items-center justify-center pointer-events-none z-20"
             >
               <div class="opacity-0 group-hover/image:opacity-100 transition-opacity bg-white/90 dark:bg-gray-900/90 px-4 py-2 rounded-lg backdrop-blur-sm">
@@ -268,107 +263,10 @@ useSeoMeta({
         </UPageCard>
       </Motion>
     </UPageSection>
-
-    <!-- Gallery Modal -->
-    <Teleport to="body">
-      <Transition name="gallery-fade">
-        <div
-          v-if="isGalleryOpen"
-          class="fixed inset-0 z-50 flex items-center justify-center bg-black/95 backdrop-blur-sm"
-          @click.self="closeGallery"
-        >
-          <!-- Close Button -->
-          <button
-            class="absolute top-4 right-4 z-10 p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
-            @click="closeGallery"
-          >
-            <UIcon name="i-lucide-x" class="w-6 h-6" />
-          </button>
-
-          <!-- Previous Button -->
-          <button
-            v-if="currentGallery.length > 1"
-            class="absolute left-4 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
-            @click="previousImage"
-          >
-            <UIcon name="i-lucide-chevron-left" class="w-6 h-6" />
-          </button>
-
-          <!-- Next Button -->
-          <button
-            v-if="currentGallery.length > 1"
-            class="absolute right-4 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
-            @click="nextImage"
-          >
-            <UIcon name="i-lucide-chevron-right" class="w-6 h-6" />
-          </button>
-
-          <!-- Main Image Container -->
-          <div class="relative w-full h-full flex items-center justify-center p-4 md:p-8">
-            <Transition name="image-slide" mode="out-in">
-              <div :key="currentImageIndex" class="relative max-w-7xl max-h-full">
-                <img
-                  :src="currentGallery[currentImageIndex]?.src"
-                  :alt="currentGallery[currentImageIndex]?.alt"
-                  class="max-w-full max-h-[85vh] object-contain rounded-lg"
-                />
-                
-                <!-- Image Caption -->
-                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6 rounded-b-lg">
-                  <p class="text-white text-center text-sm md:text-base">
-                    {{ currentGallery[currentImageIndex]?.alt }}
-                  </p>
-                </div>
-              </div>
-            </Transition>
-          </div>
-
-          <!-- Thumbnails -->
-          <div
-            v-if="currentGallery.length > 1"
-            class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 max-w-full overflow-x-auto px-4 py-2 bg-black/50 rounded-full"
-          >
-            <button
-              v-for="(image, index) in currentGallery"
-              :key="index"
-              class="relative flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden transition-all"
-              :class="[
-                currentImageIndex === index
-                  ? 'ring-2 ring-white scale-110'
-                  : 'opacity-50 hover:opacity-100'
-              ]"
-              @click="goToImage(index)"
-            >
-              <img
-                :src="image.src"
-                :alt="image.alt"
-                class="w-full h-full object-cover"
-              />
-            </button>
-          </div>
-
-          <!-- Image Counter -->
-          <div class="absolute top-4 left-1/2 transform -translate-x-1/2 bg-black/50 text-white px-4 py-2 rounded-full text-sm">
-            {{ currentImageIndex + 1 }} / {{ currentGallery.length }}
-          </div>
-        </div>
-      </Transition>
-    </Teleport>
   </UPage>
 </template>
 
 <style scoped>
-/* Gallery fade transition */
-.gallery-fade-enter-active,
-.gallery-fade-leave-active {
-  transition: opacity 0.3s ease;
-}
-
-.gallery-fade-enter-from,
-.gallery-fade-leave-to {
-  opacity: 0;
-}
-
 /* Image slide transition */
 .image-slide-enter-active,
 .image-slide-leave-active {
@@ -383,24 +281,5 @@ useSeoMeta({
 .image-slide-leave-to {
   opacity: 0;
   transform: translateX(-30px);
-}
-
-/* Hide scrollbar for thumbnails but keep functionality */
-.overflow-x-auto::-webkit-scrollbar {
-  height: 4px;
-}
-
-.overflow-x-auto::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-}
-
-.overflow-x-auto::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 10px;
-}
-
-.overflow-x-auto::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.5);
 }
 </style>
