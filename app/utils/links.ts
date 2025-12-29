@@ -8,12 +8,12 @@ export const navLinks: NavigationMenuItem[] = [{
   label: 'Projektet',
   icon: 'i-lucide-folder',
   to: '/projects'
-}, {
-  label: 'Blog',
-  icon: 'i-lucide-file-text',
-  to: '/blog'
 },{
   label: 'Biografia',
   icon: 'i-lucide-user',
   to: '/about'
+}, {
+  label: 'Kontakti',
+  icon: 'i-lucide-mail',
+  to: '/contact'
 }]

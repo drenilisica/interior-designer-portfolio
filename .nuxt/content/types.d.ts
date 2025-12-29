@@ -123,7 +123,7 @@ declare module '@nuxt/content' {
    */
   
   interface PagesCollectionItem extends PageCollectionItemBase {
-    links: {
+    links?: {
     label: string;
     icon?: string;
     to?: string;
@@ -169,9 +169,10 @@ declare module '@nuxt/content' {
   
   interface AboutCollectionItem extends PageCollectionItemBase {
     content: {};
-    images: {
-    src: string;
-    alt: string;
+    projects: {
+    slug: string;
+    image: string;
+    title: string;
     }[];
   }
   

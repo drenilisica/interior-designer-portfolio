@@ -19,7 +19,6 @@ export const AppHeader: typeof import("../app/components/AppHeader.vue").default
 export const ColorModeButton: typeof import("../app/components/ColorModeButton.vue").default
 export const PolaroidItem: typeof import("../app/components/PolaroidItem.vue").default
 export const LandingAbout: typeof import("../app/components/landing/About.vue").default
-export const LandingBlog: typeof import("../app/components/landing/Blog.vue").default
 export const LandingFAQ: typeof import("../app/components/landing/FAQ.vue").default
 export const LandingHero: typeof import("../app/components/landing/Hero.vue").default
 export const LandingTestimonials: typeof import("../app/components/landing/Testimonials.vue").default
@@ -240,7 +239,6 @@ export const LazyAppHeader: LazyComponent<typeof import("../app/components/AppHe
 export const LazyColorModeButton: LazyComponent<typeof import("../app/components/ColorModeButton.vue").default>
 export const LazyPolaroidItem: LazyComponent<typeof import("../app/components/PolaroidItem.vue").default>
 export const LazyLandingAbout: LazyComponent<typeof import("../app/components/landing/About.vue").default>
-export const LazyLandingBlog: LazyComponent<typeof import("../app/components/landing/Blog.vue").default>
 export const LazyLandingFAQ: LazyComponent<typeof import("../app/components/landing/FAQ.vue").default>
 export const LazyLandingHero: LazyComponent<typeof import("../app/components/landing/Hero.vue").default>
 export const LazyLandingTestimonials: LazyComponent<typeof import("../app/components/landing/Testimonials.vue").default>

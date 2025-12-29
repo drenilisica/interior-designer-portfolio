@@ -601,7 +601,7 @@ const appConfig0 = defineAppConfig({
       alt: "Jehona Xhoxhaj - Dizajnere e Brendshme"
     },
     meetingLink: "https://cal.com/",
-    email: "ui-pro@nuxt.com",
+    email: "jehonaxhoxhajj@gmail.com",
     available: true
   },
   ui: {
@@ -1109,7 +1109,7 @@ const _inlineRuntimeConfig = {
       "height": 600,
       "cacheMaxAgeSeconds": 259200
     },
-    "debug": false,
+    "debug": true,
     "baseCacheKey": "/cache/nuxt-og-image/5.1.13",
     "fonts": [
       {
@@ -3239,18 +3239,18 @@ async function runTask(name, {
 const checksums = {
   "index": "v3.5.0--e3w1MhK6drgElAsvfWTiEDSZls56FNdk8g6AZpVxXwk",
   "projects": "v3.5.0--LAz8vbNe1Bgs24khehuS8QXwfa8XidVQnYzdCq6mwl0",
-  "blog": "v3.5.0--SlLSMU78apaRbw5uS5ZqJ8TFZCK7Lm6EB4geDxF8Xb4",
-  "pages": "v3.5.0--vrUC9OzUp_sJuwfIiboxrniWYGlnZEH7zlRaD8adZC0",
+  "blog": "v3.5.0--PMMhvgGFocAPWVLx3gMtIzP4fDKba6Sbn_0u9hWJAMk",
+  "pages": "v3.5.0--AYusCt1za6zfcNkb030AVX6OZnEzKorAyHOuzxvWSYw",
   "speaking": "v3.5.0--mx3wcXExXsrpiL3ywmz6_l1aKNy9k5ZmsvbIyKUasJQ",
-  "about": "v3.5.0--NDZTjNSSR0UpHE2lOQdiLzMf-tpQzXvr4TnjLX-tAl4"
+  "about": "v3.5.0--Z7aPrwVAZpJVESqWdgWjDVECMdK96RFDWWkeX8tjVCQ"
 };
 const checksumsStructure = {
   "index": "OlB8K-FYQeiOmH_XYZUPmjxYW6W3oRCq3ruT1Br3SAE",
   "projects": "_jGg9QdcBGRmD2dMkbPLVfDFdmrAfSojNRqSHIw4AIY",
   "blog": "PMMhvgGFocAPWVLx3gMtIzP4fDKba6Sbn_0u9hWJAMk",
-  "pages": "3IjgIfEEf-jEHsY-RT_ootRkgk4JVF1_40-7S552Cfs",
+  "pages": "Xrt8uVflp8qSGRfycVHjH6fS7_vYIJ0G0iDRF4PmBHc",
   "speaking": "mx3wcXExXsrpiL3ywmz6_l1aKNy9k5ZmsvbIyKUasJQ",
-  "about": "fNWjfi6QK17IkVo_GwVO6TE5eDF4m9P5PE52tFBRB8c"
+  "about": "cSh3bAOQqx8VA9CKDoYPGjMVYITfPX7k15c6OtFb2uM"
 };
 const tables = {
   "index": "_content_index",
@@ -3364,10 +3364,10 @@ const contentManifest = {
       "content": "json",
       "description": "string",
       "extension": "string",
-      "images": "json",
       "meta": "json",
       "navigation": "json",
       "path": "string",
+      "projects": "json",
       "seo": "json",
       "stem": "string"
     }
@@ -3849,6 +3849,7 @@ const _U4Iu4q = lazyEventHandler(() => {
   return useBase(opts.baseURL, ipxHandler);
 });
 
+const _lazy_JQviiP = () => Promise.resolve().then(function () { return contact_post$1; });
 const _lazy_OeaRNN = () => Promise.resolve().then(function () { return renderer$1; });
 const _lazy_qhZUH4 = () => Promise.resolve().then(function () { return font$1; });
 const _lazy_GGJwVX = () => Promise.resolve().then(function () { return debug_json$1; });
@@ -3856,6 +3857,7 @@ const _lazy_BGMP_2 = () => Promise.resolve().then(function () { return image$1; 
 
 const handlers = [
   { route: '', handler: _uGHBep, lazy: false, middleware: true, method: undefined },
+  { route: '/api/contact', handler: _lazy_JQviiP, lazy: true, middleware: false, method: "post" },
   { route: '/__nuxt_error', handler: _lazy_OeaRNN, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_island/**', handler: _SxA8c9, lazy: false, middleware: false, method: undefined },
   { route: '/api/_nuxt_icon/:collection', handler: _wJFQr6, lazy: false, middleware: false, method: undefined },
@@ -8381,6 +8383,86 @@ const styles = {};
 const styles$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
   default: styles
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const contact_post = defineEventHandler(async (event) => {
+  try {
+    const body = await readBody(event);
+    const { name, email, phone, subject, message, projectType, to } = body;
+    if (!name || !email || !subject || !message) {
+      throw createError({
+        statusCode: 400,
+        message: "T\xEB gjitha fushat e k\xEBrkuara duhet t\xEB plot\xEBsohen"
+      });
+    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      throw createError({
+        statusCode: 400,
+        message: "Email i pavlefsh\xEBm"
+      });
+    }
+    const emailContent = `
+Mesazh i ri nga Faqja e Kontaktit - Jehona Xhoxhaj Interior Design
+
+\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+
+INFORMACIONI I KONTAKTIT:
+\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+Emri:           ${name}
+Email:          ${email}
+Telefon:        ${phone || "Nuk \xEBsht\xEB dh\xEBn\xEB"}
+Lloji Projektit: ${projectType ? getProjectTypeLabel(projectType) : "Nuk \xEBsht\xEB specifikuar"}
+
+SUBJEKTI:
+\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+${subject}
+
+MESAZHI:
+\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+${message}
+
+\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550
+
+D\xEBrguar nga: ${(/* @__PURE__ */ new Date()).toLocaleString("sq-AL", {
+      timeZone: "Europe/Tirane",
+      dateStyle: "full",
+      timeStyle: "short"
+    })}
+    `.trim();
+    console.log("\u{1F4E7} Email to be sent to:", to);
+    console.log("\u{1F4DD} Email content:");
+    console.log(emailContent);
+    await new Promise((resolve) => setTimeout(resolve, 500));
+    return {
+      success: true,
+      message: "Mesazhi u d\xEBrgua me sukses!"
+    };
+  } catch (error) {
+    console.error("Error in contact API:", error);
+    throw createError({
+      statusCode: error.statusCode || 500,
+      message: error.message || "Ndodhi nj\xEB gabim gjat\xEB d\xEBrgimit t\xEB mesazhit"
+    });
+  }
+});
+function getProjectTypeLabel(value) {
+  const types = {
+    "bedroom": "Dhom\xEB Gjumi",
+    "kitchen": "Kuzhin\xEB",
+    "living-room": "Dhom\xEB Ndenjeje",
+    "children-room": "Dhom\xEB F\xEBmij\xEBsh",
+    "office": "Zyr\xEB",
+    "commercial": "Dyqan/Biznes",
+    "furniture": "Mobilje t\xEB Personalizuara",
+    "other": "Tjet\xEBr"
+  };
+  return types[value] || value;
+}
+
+const contact_post$1 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: contact_post
 }, Symbol.toStringTag, { value: 'Module' }));
 
 function renderPayloadResponse(ssrContext) {

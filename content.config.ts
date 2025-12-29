@@ -98,10 +98,11 @@ export default defineContentConfig({
       type: 'page',
       source: [
         { include: 'projects.yml' },
-        { include: 'blog.yml' }
+        { include: 'blog.yml' },
+        { include: 'contact.yml' }
       ],
       schema: z.object({
-        links: z.array(createButtonSchema())
+        links: z.array(createButtonSchema()).optional()
       })
     }),
     speaking: defineCollection({
@@ -123,7 +124,11 @@ export default defineContentConfig({
       source: 'about.yml',
       schema: z.object({
         content: z.object({}),
-        images: z.array(createImageSchema())
+        projects: z.array(z.object({
+          slug: z.string(),
+          image: z.string(),
+          title: z.string()
+        }))
       })
     })
   }

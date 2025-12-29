@@ -6,7 +6,7 @@ export default defineAppConfig({
       alt: 'Jehona Xhoxhaj - Dizajnere e Brendshme'
     },
     meetingLink: 'https://cal.com/',
-    email: 'ui-pro@nuxt.com',
+    email: 'jehonaxhoxhajj@gmail.com',
     available: true
   },
   ui: {

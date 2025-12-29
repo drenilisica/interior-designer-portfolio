@@ -19,7 +19,6 @@ interface _GlobalComponents {
   'ColorModeButton': typeof import("../../app/components/ColorModeButton.vue").default
   'PolaroidItem': typeof import("../../app/components/PolaroidItem.vue").default
   'LandingAbout': typeof import("../../app/components/landing/About.vue").default
-  'LandingBlog': typeof import("../../app/components/landing/Blog.vue").default
   'LandingFAQ': typeof import("../../app/components/landing/FAQ.vue").default
   'LandingHero': typeof import("../../app/components/landing/Hero.vue").default
   'LandingTestimonials': typeof import("../../app/components/landing/Testimonials.vue").default
@@ -240,7 +239,6 @@ interface _GlobalComponents {
   'LazyColorModeButton': LazyComponent<typeof import("../../app/components/ColorModeButton.vue").default>
   'LazyPolaroidItem': LazyComponent<typeof import("../../app/components/PolaroidItem.vue").default>
   'LazyLandingAbout': LazyComponent<typeof import("../../app/components/landing/About.vue").default>
-  'LazyLandingBlog': LazyComponent<typeof import("../../app/components/landing/Blog.vue").default>
   'LazyLandingFAQ': LazyComponent<typeof import("../../app/components/landing/FAQ.vue").default>
   'LazyLandingHero': LazyComponent<typeof import("../../app/components/landing/Hero.vue").default>
   'LazyLandingTestimonials': LazyComponent<typeof import("../../app/components/landing/Testimonials.vue").default>

@@ -25,19 +25,23 @@ content: |
 
   Kur nuk po dizajnoj apo vizitoj kantiere, mund të më gjeni duke eksploruar kafenetë e Prizrenit, duke vizituar ekspozita arti, apo duke kontribuar në projekte lokale të revitalizimit urban.
 
-  Faleminderit që më vizituat. Ndjehuni të lirë të shfletoni [projektet](/projects) e mia ose të [kontaktoni](/#contact) nëse dëshironi të bashkëpunojmë!
-images:
-  - src: /about/designer-jehona.jpg
-    alt: Jehona Xhoxhaj - Dizajnere e Brendshme
-  - src: /projects/argjendaria/argjendaria.JPG
-    alt: Projekt Argjendaria ANNA
-  - src: /projects/bedroom/bedroom.JPG
-    alt: Dhomë Gjumi Moderne
-  - src: /projects/kitchen/kitchen.JPG
-    alt: Kuzhinë Bashkëkohore
-  - src: /projects/living-room/living-room.JPG
-    alt: Dhomë Ndenjeje Elegante
-  - src: /projects/children-room/children-room.JPG
-    alt: Dhomë Fëmijësh Kreative
-  - src: /projects/wardrobe/wardrobe2.JPG
-    alt: Mobilje të Personalizuara - Guarderobë
+  Faleminderit që më vizituat. Ndjehuni të lirë të shfletoni [projektet](/projects) e mia ose të [kontaktoni](/contact) nëse dëshironi të bashkëpunojmë!
+projects:
+  - slug: anna-remodeling-dyqani-bizhuterive
+    image: /projects/argjendaria/argjendaria.JPG
+    title: ANNA - Remodeling Dyqani Bizhuterive
+  - slug: dhome-gjumi-moderne
+    image: /projects/bedroom/bedroom.JPG
+    title: Dhomë Gjumi Moderne
+  - slug: kuzhine-bashkekohore
+    image: /projects/kitchen/kitchen.JPG
+    title: Kuzhinë Bashkëkohore
+  - slug: dhome-ndenjeje-elegante
+    image: /projects/living-room/living-room.JPG
+    title: Dhomë Ndenjeje Elegante
+  - slug: dhome-femijesh-kreative
+    image: /projects/children-room/children-room.JPG
+    title: Dhomë Fëmijësh Kreative
+  - slug: mobilje-te-personalizuara-guarderobe
+    image: /projects/wardrobe/wardrobe2.JPG
+    title: Mobilje të Personalizuara - Guarderobë
